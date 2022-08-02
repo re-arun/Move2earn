@@ -1,0 +1,6 @@
+module Pods_Move2earn {
+  umbrella header "Pods-Move2earn-umbrella.h"
+
+  export *
+  module * { export * }
+}
