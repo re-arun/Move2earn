@@ -130,11 +130,11 @@ const LocModal = ({navigation}) => {
             </ImageBackground>
           </View>
         </Modal>
-        <Pressable
+        {/* <Pressable
           style={[styles.button, styles.buttonOpen]}
           onPress={() => setModalVisible(true)}>
           <Text style={styles.textStyle}>Show Modal</Text>
-        </Pressable>
+        </Pressable> */}
       </ImageBackground>
     </View>
   );

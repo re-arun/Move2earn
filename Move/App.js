@@ -22,266 +22,9 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import First from './src/assets/screens/SelectGender/First';
 import ThirdStep from './src/assets/screens/SelectGender/Third';
 import SecondStep from './src/assets/screens/SelectGender/Second';
+import HBottom from './src/assets/screens/HomeBottom/HBottom';
 const {height, width} = Dimensions.get('screen');
 // 2nd Screeen started here
-
-
-
-  function HomeScreen({navigation}) {
-    const [checked, setChecked] = useState('');
-    var gender = ['Male', 'Female'];
-    /**function for change  weight */
-    const [Counter, setCounter] = useState(64);
-    const IncrementCounter = () => setCounter(Counter + 1);
-    const DecrementCounter = () => setCounter(Counter - 1);
-    const Func = () => {
-      if (Counter <= 0) {
-        DecrementCounter = () => setCounter(1);
-      }
-    };
-  
-    const [Counter1, setCounter1] = useState(5);
-    const IncrementCounter2 = () => setCounter1(Counter1 + 9);
-    const IncrementCounter1 = () => setCounter1(Counter1 + 1);
-    const DecrementCounter1 = () => setCounter1(Counter1 - 1);
-    const DecrementCounter2 = () => setCounter1(Counter1 - 9);
-    const Func1 = () => {
-      if (Counter1 <= 0) {
-        IncrementCounter2();
-        DecrementCounter();
-      }
-    };
-    const Func2 = () => {
-      if (Counter1 >= 9) {
-        DecrementCounter2();
-        IncrementCounter();
-      }
-    };
-  
-    /***function for change height */
-    const [Counter9, setCounter9] = useState(64);
-    const IncrementCounter9 = () => setCounter9(Counter9 + 1);
-    const DecrementCounter9 = () => setCounter9(Counter9 - 1);
-    const Func9 = () => {
-      if (Counter9 <= 0) {
-        DecrementCounter9 = () => setCounter9(1);
-      }
-    };
-  
-    const [Counter8, setCounter8] = useState(5);
-    const IncrementCounter7 = () => setCounter8(Counter8 + 9);
-    const IncrementCounter8 = () => setCounter8(Counter8 + 1);
-    const DecrementCounter8 = () => setCounter8(Counter8 - 1);
-    const DecrementCounter7 = () => setCounter8(Counter8 - 9);
-    const Func8 = () => {
-      if (Counter8 <= 0) {
-        IncrementCounter7();
-        DecrementCounter9();
-      }
-    };
-    const Func10 = () => {
-      if (Counter8 >= 9) {
-        DecrementCounter7();
-        IncrementCounter9();
-      }
-    };
-    return (
-      <SafeAreaView>
-      <View>
-        <ImageBackground
-          style={styles.ImageBackground}
-          source={IMAGEPATH.SPLASH_BACKGROUND}>
-          <StatusBar barStyle="light-content"></StatusBar>
-          <View style={styles.fakeVIew3}></View>
-          <View style={styles.backView}>
-            <TouchableOpacity>
-              <Image source={IMAGEPATH.BACK_ICON} />
-            </TouchableOpacity>
-          </View>
-          <View style={{height: height * 1,  top:20}}>
-            <View
-              style={styles.StepContainer}>
-              <View style={{ }}>
-                <Image source={IMAGEPATH.STEP_ELIPS} />
-                <Image
-                  source={IMAGEPATH.STEP_DONE}
-                  style={{position: 'absolute', alignSelf: 'center', top: 10}}
-                />
-              </View>
-              <View style={{alignSelf: 'center'}}>
-                <Image source={IMAGEPATH.STEPS_REC} style={{width: 120}} />
-              </View>
-              <View style={{}}>
-                <Image source={IMAGEPATH.EMPTY_ELIPS} />
-                <Text
-                  style={{
-                    position: 'absolute',
-                    alignSelf: 'center',
-                    top: 5,
-                    color: 'white',
-                  }}>
-                  2
-                </Text>
-              </View>
-              <View style={{alignSelf: 'center'}}>
-                <Image source={IMAGEPATH.STEP_E_REc} style={{width: 120}} />
-              </View>
-              <View style={{}}>
-                <Image source={IMAGEPATH.EMPTY_ELIPS} />
-                <Text
-                  style={{
-                    position: 'absolute',
-                    alignSelf: 'center',
-                    top: 5,
-                    color: 'white',
-                  }}>
-                  3
-                </Text>
-              </View>
-            </View>
-            <View style={{height: height * 0.89}}>
-              <View style={styles.ProgressViewMain}>
-                <View style={styles.fakeVIew1}></View>
-                <View style={styles.headingTextView}>
-                  <Text style={styles.textColor}>What’s your gender?</Text>
-                </View>
-                <View style={styles.paraTextView}>
-                  <Text style={styles.textColor1}>
-                    Calories & stride length calculation need it
-                  </Text>
-                </View>
-                <View>
-                  <View
-                    style={{
-                      alignSelf: 'center',
-                      height: height * 0.3,
-                      width: width * 0.95,
-                      // alignSelf:'center',
-                      alignItems: 'center',
-                      // justifyContent: 'center',
-                      //  backgroundColor:'white'
-                    }}>
-                    <View style={styles.btn}>
-                      <View
-                        style={{
-                          flexDirection: 'row',
-                          //  justifyContent:"space-between",
-                          height: height * 0.28,
-                          width: width * 0.95,
-                          //  backgroundColor:'red',
-                          //justifyContent:'center',
-                          alignItems: 'center',
-                        }}>
-                        <TouchableOpacity
-                          onPress={() =>
-                            setChecked(checked === 'female' ? 'male' : 'female')
-                          }
-                          style={styles.btn1}>
-                          <View style={styles.image}>
-                            <ImageBackground
-                              style={styles.img}
-                              source={
-                                checked === 'male'
-                                  ? IMAGEPATH.NOTSELECTED_BG
-                                  : IMAGEPATH.SELECTED_BG
-                              }>
-                              <Image
-                                style={{
-                                  height: height * 0.18,
-                                  width: width * 0.18,
-                                }}
-                                source={IMAGEPATH.MALE_ICON}
-                              />
-                              <View
-                                style={{
-                                  height: height * 0.03,
-                                  width: width * 0.1,
-                                  alignSelf: 'center',
-                                  alignItems: 'center',
-                                  justifyContent: 'center',
-                                }}>
-                                <Text
-                                  style={{
-                                    color: '#FFFFFF',
-                                    fontSize: 14,
-                                    fontWeight: '400',
-                                  }}>
-                                  Male
-                                </Text>
-                              </View>
-                            </ImageBackground>
-                          </View>
-                        </TouchableOpacity>
-  
-                        <TouchableOpacity
-                          onPress={() =>
-                            setChecked(checked === 'male' ? 'female' : 'male')
-                          }
-                          style={styles.btn1}>
-                          <View style={styles.image}>
-                            <ImageBackground
-                              style={styles.img}
-                              source={
-                                checked === 'female'
-                                  ? IMAGEPATH.NOTSELECTED_BG
-                                  : IMAGEPATH.SELECTED_BG
-                              }>
-                              <Image
-                                style={{
-                                  height: height * 0.18,
-                                  width: width * 0.18,
-                                }}
-                                source={IMAGEPATH.FEMALE_ICON}
-                              />
-  
-                              <View
-                                style={{
-                                  height: height * 0.03,
-                                  width: width * 0.14,
-                                  alignSelf: 'center',
-                                  alignItems: 'center',
-                                  justifyContent: 'center',
-                                }}>
-                                <Text
-                                  style={{
-                                    color: '#FFFFFF',
-                                    fontSize: 14,
-                                    fontWeight: '400',
-                                  }}>
-                                  Female
-                                </Text>
-                              </View>
-                            </ImageBackground>
-                          </View>
-                        </TouchableOpacity>
-                      </View>
-                    </View>
-                    {/* <Text>{gender[checked]}</Text> */}
-                  </View>
-                </View>
-                <View style={styles.fakeVIew3}></View>
-                <View style={styles.loginButtonVIew}>
-                  <TouchableOpacity
-                    style={styles.loginButtonVIew1}
-                    onPress={() => navigation.navigate('Second')}>
-                    <ImageBackground
-                      style={styles.borderStyle}
-                      source={IMAGEPATH.BORDER_COLOR}>
-                      <View style={styles.loginTextView}>
-                        <Text style={styles.loginTextStyle}>Next</Text>
-                      </View>
-                    </ImageBackground>
-                  </TouchableOpacity>
-                </View>
-              </View>
-            </View>
-          </View>
-        </ImageBackground>
-      </View>
-      </SafeAreaView>
-    );
-  }
-
 
 
 
@@ -297,12 +40,12 @@ const Tab = createBottomTabNavigator();
 
 function Gender({navigation}) {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
    
       <Tab.Navigator
       
         screenOptions={{headerShown: false}}
-        initialRouteName="First">
+        initialRouteName="HBottom">
         <Tab.Screen
           name="First"
           component={First}
@@ -329,6 +72,12 @@ function Gender({navigation}) {
           })} />
            
              <Tab.Screen name="Dashboard" component={Dashboard}  options={() => ({
+            tabBarStyle: {
+              display: 'none',
+            },
+            tabBarButton: () => null,
+          })} />
+           <Tab.Screen name="HBottom" component={HBottom}  options={() => ({
             tabBarStyle: {
               display: 'none',
             },

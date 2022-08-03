@@ -78,7 +78,7 @@ function SecondStep({navigation}) {
     }
   };
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{height:height,width:width}}>
     <View style={styles.mainContainer}>
       <ImageBackground
         style={styles.ImageBackground}

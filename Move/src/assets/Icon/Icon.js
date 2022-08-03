@@ -43,7 +43,14 @@ export const IMAGEPATH = {
     STEP_E_REc:require("../images/SelectGender/EmptyLine/Rec9.png"),
     STEP:require("../images/SelectGender/Step/Group.png"),
     SSTEP:require("../images/SelectGender/2Step/2Step.png"),
-    TSTEP:require("../images/SelectGender/3Step/3Step.png")
+    TSTEP:require("../images/SelectGender/3Step/3Step.png"),
+    BOTTOMTAB:require("../images/HomePage/BottomTab/Bottom.png"),
+    LONGEST_RUN:require("../images/HomePage/Longest/LongestRun.png"),
+    LOCICON:require("../images/HomePage/Longest/LocIcon.png"),
+    BI1:require('../images/HomePage/BottomTab/bottomTabIcons/1st/home.png'),
+    BI2C:require("../images/HomePage/BottomTab/bottomTabIcons/2ndbox/IconCon.png"),
+    BI2:require("../images/HomePage/BottomTab/bottomTabIcons/2ndbox/run.png"),
+    BI3:require("../images/HomePage/BottomTab/bottomTabIcons/Stack.png"),
 
 
 
