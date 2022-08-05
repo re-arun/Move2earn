@@ -60,7 +60,18 @@ export const IMAGEPATH = {
     DOLLAR:require("../images/myShoe/Dollar/dollar.png"),
     LEFT:require('../images/Notifications/LeftArrow/leftArrow.png'),
     BIGSHOES:require("../images/ShowDetails/BigShoe.png"),
-    BIGSHOESS:require("../images/ShowDetails/ShoeShadow/ShoeShadow.png")
+    BIGSHOESS:require("../images/ShowDetails/ShoeShadow/ShoeShadow.png"),
+    ATTCONTAINER:require("../images/ShowDetails/attributeContainer/attributeContainer.png"),
+    LEVCONTAINER:require("../images/ShowDetails/LevelContainer/LevelContainer.png"),
+    RED:require('../images/ShowDetails/RedRec/RedRec.png'),
+    PINK:require('../images/ShowDetails/Pink/Pink.png'),
+    GREEN:require('../images/ShowDetails/GreenRec/Green.png'),
+    ORANGE:require('../images/ShowDetails/OrangeRec/Orange.png'),
+    SKYBLUE:require('../images/ShowDetails/Sblue/Sblue.png'),
+
+
+
+
 
 
 

@@ -37,7 +37,7 @@ function Gender({ navigation }) {
     <NavigationContainer independent={true}>
       <Tab.Navigator
         screenOptions={{ headerShown: false }}
-        initialRouteName="HBottom"
+        initialRouteName="ShoeDetails"
       >
         <Tab.Screen
           name="First"
