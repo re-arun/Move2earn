@@ -51,8 +51,16 @@ export const IMAGEPATH = {
     BI2C:require("../images/HomePage/BottomTab/bottomTabIcons/2ndbox/IconCon.png"),
     BI2:require("../images/HomePage/BottomTab/bottomTabIcons/2ndbox/run.png"),
     BI3:require("../images/HomePage/BottomTab/bottomTabIcons/Stack.png"),
-
-
+    GRADBOTTOM:require("../images/myShoe/gradBottom/grad.png"),
+    SCONTAINER:require("../images/myShoe/Scontainer/Scontainer.png"),
+    SHOES:require("../images/myShoe/Shoes/Shoes.png"),
+    CYCLE:require("../images/myShoe/cycle/cycle.png"),
+    SHOESS:require("../images/myShoe/shoesshadow/shoesshadow.png"),
+    CYCLES:require("../images/myShoe/CycleShadow/cycleShadow.png"),
+    DOLLAR:require("../images/myShoe/Dollar/dollar.png"),
+    LEFT:require('../images/Notifications/LeftArrow/leftArrow.png'),
+    BIGSHOES:require("../images/ShowDetails/BigShoe.png"),
+    BIGSHOESS:require("../images/ShowDetails/ShoeShadow/ShoeShadow.png")
 
 
 

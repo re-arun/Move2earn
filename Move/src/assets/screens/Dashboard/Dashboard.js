@@ -20,257 +20,258 @@ const { height, width } = Dimensions.get("window");
 
 const Dashboard = ({ navigation }) => {
   return (
-    
     <View style={styles.mainContainer}>
       <ImageBackground
         style={styles.ImageBackground}
         source={IMAGEPATH.SPLASH_BACKGROUND}
       >
-
         <StatusBar barStyle="light-content"></StatusBar>
         <ScrollView>
-        <View style={styles.fakeView}></View>
-        <View style={styles.headerVIew}>
-          <View style={{ width: width * 0.04 }}></View>
-          <View style={styles.headingView}>
-            <View style={{ height: height * 0.02 }}></View>
-            <View style={styles.HelloVIew2}>
-              <Text style={styles.HelloTExt}>Hello! Umair Siddiqui</Text>
+          <View style={styles.fakeView}></View>
+          <View style={styles.headerVIew}>
+            <View style={{ width: width * 0.04 }}></View>
+            <View style={styles.headingView}>
+              <View style={{ height: height * 0.02 }}></View>
+              <View style={styles.HelloVIew2}>
+                <Text style={styles.HelloTExt}>Hello! Umair Siddiqui</Text>
+              </View>
+              <View style={styles.HelloVIew}>
+                <Text style={styles.HeadingTExt}>Let’s Move2Earn</Text>
+              </View>
             </View>
-            <View style={styles.HelloVIew}>
-              <Text style={styles.HeadingTExt}>Let’s Move2Earn</Text>
-            </View>
-          </View>
 
-          <View style={styles.BellView}>
-            <TouchableOpacity>
-              <Image source={IMAGEPATH.BELL_Icon} />
-            </TouchableOpacity>
+            <View style={styles.BellView}>
+              <TouchableOpacity onPress={() => navigation.navigate("First")}>
+                <Image source={IMAGEPATH.BELL_Icon} />
+              </TouchableOpacity>
+            </View>
+            <View style={styles.ProfileVIew}>
+              <TouchableOpacity>
+                <Image source={IMAGEPATH.PROFILE_Icon} />
+              </TouchableOpacity>
+            </View>
           </View>
-          <View style={styles.ProfileVIew}>
-            <TouchableOpacity>
-              <Image source={IMAGEPATH.PROFILE_Icon} />
-            </TouchableOpacity>
-          </View>
-        </View>
-        <View style={styles.HOmeImage}>
-          <View style={styles.container}>
-            <SwiperFlatList
-              autoplay
-              autoplayDelay={3}
-              autoplayLoop
-              index={2}
-              showPagination
-              paginationActiveColor="#1EB808"
-              paginationDefaultColor="transparent"
-              paginationStyleItemInactive={{
-                borderColor: "gray",
-                borderWidth: 1,
-              }}
-              paginationStyle={{
-                borderColor: "#434242",
-                height: height * 0.02,
-                width: width * 0.2,
-                justifyContent: "space-around",
-              }}
-            >
-              <View
-                style={[
-                  styles.child,
-                  {
-                    alignItems: "center",
-                  },
-                ]}
-              >
-                <Image
-                  style={styles.HEadingImageStyle}
-                  source={IMAGEPATH.HEADER_IMAGE}
-                />
-              </View>
-              <View style={[styles.child, { alignItems: "center" }]}>
-                <Image
-                  style={styles.HEadingImageStyle}
-                  source={IMAGEPATH.HEADER_IMAGE}
-                />
-              </View>
-              <View style={[styles.child, { alignItems: "center" }]}>
-                <Image
-                  style={styles.HEadingImageStyle}
-                  source={IMAGEPATH.HEADER_IMAGE}
-                />
-              </View>
-              <View style={[styles.child, { alignItems: "center" }]}>
-                <Image
-                  style={styles.HEadingImageStyle}
-                  source={IMAGEPATH.HEADER_IMAGE}
-                />
-              </View>
-            </SwiperFlatList>
-          </View>
-        </View>
-        <View style={{ height: height * 0.01 }}></View>
-        <View style={styles.buttonVIew}>
-          <View style={styles.RunnigMainView}>
-            <TouchableOpacity>
-              <ImageBackground
-                style={styles.BUTTON_ICON}
-                source={IMAGEPATH.BUTTON_ICON}
-              >
-                <View style={styles.CycallingView}>
-                  <Image
-                    style={styles.RunImageStyle}
-                    source={IMAGEPATH.RUNNING_ICON}
-                  />
-                </View>
-                <View style={styles.CyTextView}>
-                  <Text style={styles.RunTextStyle}>Running</Text>
-                </View>
-              </ImageBackground>
-            </TouchableOpacity>
-          </View>
-          <View style={styles.RunnigMainView}>
-            <TouchableOpacity>
-              <ImageBackground
-                style={styles.BUTTON_ICON}
-                source={IMAGEPATH.BUTTON_ICON}
-              >
-                <View style={styles.CycallingView}>
-                  <Image
-                    style={styles.RunImageStyle1}
-                    source={IMAGEPATH.CYCALLING_ICON}
-                  />
-                </View>
-                <View style={styles.CyTextView}>
-                  <Text style={styles.RunTextStyle}>Cycling</Text>
-                </View>
-              </ImageBackground>
-            </TouchableOpacity>
-          </View>
-          <View style={styles.RunnigMainView}>
-            <TouchableOpacity>
-              <ImageBackground
-                style={styles.BUTTON_ICON}
-                source={IMAGEPATH.BUTTON_ICON}
-              >
-                <View style={styles.CycallingView}>
-                  <Image
-                    style={styles.RunImageStyle1}
-                    source={IMAGEPATH.WALKING_ICON}
-                  />
-                </View>
-                <View style={styles.CyTextView}>
-                  <Text style={styles.RunTextStyle}>Walking</Text>
-                </View>
-              </ImageBackground>
-            </TouchableOpacity>
-          </View>
-        </View>
-        <View style={styles.MIdHeadingTextView}>
-          <Text style={styles.MIdHeadingTextStyle}>Finished Tasks</Text>
-          <Text style={styles.DayTExt}>Day Time</Text>
-        </View>
-        <View style={styles.TaskPercentageVIew}>
-          <ImageBackground
-            style={styles.TASKBG_ICON}
-            source={IMAGEPATH.TASKBG_ICON}
-          >
-            <View style={styles.ProcessMainView}>
-              <View style={styles.ProcessFirstView}>
-                <View style={styles.cRunView}>
-                  <View style={styles.RUnIcnView}>
-                    <Image source={IMAGEPATH.COLORRUN_ICON} />
-                  </View>
-                  <View style={styles.RUnTxtView}>
-                    <Text style={styles.T1Style}>0 /150 min</Text>
-                  </View>
-                </View>
-                <View style={styles.cRunView}>
-                  <View style={styles.RUnIcnView}>
-                    <Image source={IMAGEPATH.COLORRUN_ICON} />
-                  </View>
-                  <View style={styles.RUnTxtView}>
-                    <Text style={styles.T1Style}>0 /150 min</Text>
-                  </View>
-                </View>
-                <View>
-                  <View style={styles.sendCodeView}>
-                    <TouchableOpacity>
-                      <ImageBackground
-                        style={styles.codeImageSTyle}
-                        source={IMAGEPATH.CODE_ICON}
-                      >
-                        <View style={styles.sendView}>
-                          <Text style={styles.sendCOdeTExt}>View all</Text>
-                        </View>
-                      </ImageBackground>
-                    </TouchableOpacity>
-                  </View>
-                </View>
-              </View>
-              <View
-                style={{
-                  width: width * 0.45,
-                  // alignSelf: "center",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  // backgroundColor:'red'
-                  top: 5,
+          <View style={styles.HOmeImage}>
+            <View style={styles.container}>
+              <SwiperFlatList
+                autoplay
+                autoplayDelay={3}
+                autoplayLoop
+                index={2}
+                showPagination
+                paginationActiveColor="#1EB808"
+                paginationDefaultColor="transparent"
+                paginationStyleItemInactive={{
+                  borderColor: "gray",
+                  borderWidth: 1,
+                }}
+                paginationStyle={{
+                  borderColor: "#434242",
+                  height: height * 0.02,
+                  width: width * 0.2,
+                  justifyContent: "space-around",
                 }}
               >
-                <CircularProgress
-                  value={30}
-                  rotation={-50}
-                  inActiveStrokeColor={"#4C536E"}
-                  progressValueColor={"#ecf0f1"}
-                  activeStrokeColor={"#2ecc71"}
-                  activeStrokeSecondaryColor={"#ffffff"}
-                  // inActiveStrokeColor={'#9b59b6'}
-                  inActiveStrokeOpacity={0.5}
-                  inActiveStrokeWidth={15}
-                  activeStrokeWidth={30}
-                  radius={70}
-                  valueSuffix={"%"}
-                />
-              </View>
+                <View
+                  style={[
+                    styles.child,
+                    {
+                      alignItems: "center",
+                    },
+                  ]}
+                >
+                  <Image
+                    style={styles.HEadingImageStyle}
+                    source={IMAGEPATH.HEADER_IMAGE}
+                  />
+                </View>
+                <View style={[styles.child, { alignItems: "center" }]}>
+                  <Image
+                    style={styles.HEadingImageStyle}
+                    source={IMAGEPATH.HEADER_IMAGE}
+                  />
+                </View>
+                <View style={[styles.child, { alignItems: "center" }]}>
+                  <Image
+                    style={styles.HEadingImageStyle}
+                    source={IMAGEPATH.HEADER_IMAGE}
+                  />
+                </View>
+                <View style={[styles.child, { alignItems: "center" }]}>
+                  <Image
+                    style={styles.HEadingImageStyle}
+                    source={IMAGEPATH.HEADER_IMAGE}
+                  />
+                </View>
+              </SwiperFlatList>
             </View>
-          </ImageBackground>
-        </View>
-        <View style={{ height: height * 0.1, width: width * 1 }}>
-          <ImageBackground
-            source={IMAGEPATH.LONGEST_RUN}
-            style={{
-              height: height * 0.1,
-              width: width * 0.9,
-              alignSelf: "center",
-            }}
-          >
-            <View
+          </View>
+          <View style={{ height: height * 0.01 }}></View>
+          <View style={styles.buttonVIew}>
+            <View style={styles.RunnigMainView}>
+              <TouchableOpacity>
+                <ImageBackground
+                  style={styles.BUTTON_ICON}
+                  source={IMAGEPATH.BUTTON_ICON}
+                >
+                  <View style={styles.CycallingView}>
+                    <Image
+                      style={styles.RunImageStyle}
+                      source={IMAGEPATH.RUNNING_ICON}
+                    />
+                  </View>
+                  <View style={styles.CyTextView}>
+                    <Text style={styles.RunTextStyle}>Running</Text>
+                  </View>
+                </ImageBackground>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.RunnigMainView}>
+              <TouchableOpacity>
+                <ImageBackground
+                  style={styles.BUTTON_ICON}
+                  source={IMAGEPATH.BUTTON_ICON}
+                >
+                  <View style={styles.CycallingView}>
+                    <Image
+                      style={styles.RunImageStyle1}
+                      source={IMAGEPATH.CYCALLING_ICON}
+                    />
+                  </View>
+                  <View style={styles.CyTextView}>
+                    <Text style={styles.RunTextStyle}>Cycling</Text>
+                  </View>
+                </ImageBackground>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.RunnigMainView}>
+              <TouchableOpacity>
+                <ImageBackground
+                  style={styles.BUTTON_ICON}
+                  source={IMAGEPATH.BUTTON_ICON}
+                >
+                  <View style={styles.CycallingView}>
+                    <Image
+                      style={styles.RunImageStyle1}
+                      source={IMAGEPATH.WALKING_ICON}
+                    />
+                  </View>
+                  <View style={styles.CyTextView}>
+                    <Text style={styles.RunTextStyle}>Walking</Text>
+                  </View>
+                </ImageBackground>
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View style={styles.MIdHeadingTextView}>
+            <Text style={styles.MIdHeadingTextStyle}>Finished Tasks</Text>
+            <Text style={styles.DayTExt}>Day Time</Text>
+          </View>
+          <View style={styles.TaskPercentageVIew}>
+            <ImageBackground
+              style={styles.TASKBG_ICON}
+              source={IMAGEPATH.TASKBG_ICON}
+            >
+              <View style={styles.ProcessMainView}>
+                <View style={styles.ProcessFirstView}>
+                  <View style={styles.cRunView}>
+                    <View style={styles.RUnIcnView}>
+                      <Image source={IMAGEPATH.COLORRUN_ICON} />
+                    </View>
+                    <View style={styles.RUnTxtView}>
+                      <Text style={styles.T1Style}>0 /150 min</Text>
+                    </View>
+                  </View>
+                  <View style={styles.cRunView}>
+                    <View style={styles.RUnIcnView}>
+                      <Image source={IMAGEPATH.COLORRUN_ICON} />
+                    </View>
+                    <View style={styles.RUnTxtView}>
+                      <Text style={styles.T1Style}>0 /150 min</Text>
+                    </View>
+                  </View>
+                  <View>
+                    <View style={styles.sendCodeView}>
+                      <TouchableOpacity>
+                        <ImageBackground
+                          style={styles.codeImageSTyle}
+                          source={IMAGEPATH.CODE_ICON}
+                        >
+                          <View style={styles.sendView}>
+                            <Text style={styles.sendCOdeTExt}>View all</Text>
+                          </View>
+                        </ImageBackground>
+                      </TouchableOpacity>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    width: width * 0.45,
+                    // alignSelf: "center",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    // backgroundColor:'red'
+                    top: 5,
+                  }}
+                >
+                  <CircularProgress
+                    value={30}
+                    rotation={-50}
+                    inActiveStrokeColor={"#4C536E"}
+                    progressValueColor={"#ecf0f1"}
+                    activeStrokeColor={"#2ecc71"}
+                    activeStrokeSecondaryColor={"#ffffff"}
+                    // inActiveStrokeColor={'#9b59b6'}
+                    inActiveStrokeOpacity={0.5}
+                    inActiveStrokeWidth={15}
+                    activeStrokeWidth={30}
+                    radius={70}
+                    valueSuffix={"%"}
+                  />
+                </View>
+              </View>
+            </ImageBackground>
+          </View>
+          <View style={{ height: height * 0.1, width: width * 1 }}>
+            <ImageBackground
+              source={IMAGEPATH.LONGEST_RUN}
               style={{
-                
-                justifyContent: "center",
-                width: width * 0.8,
-                // backgroundColor: "red",
-                alignContents: "center",
-               height:height*0.1,
-                alignSelf:'center'
+                height: height * 0.1,
+                width: width * 0.9,
+                alignSelf: "center",
               }}
             >
-            <View style={{flexDirection: "row", justifyContent: "space-between", alignItems:'center'}}>
-
-              <View>
-                <Image source={IMAGEPATH.LOCICON} />
+              <View
+                style={{
+                  justifyContent: "center",
+                  width: width * 0.8,
+                  // backgroundColor: "red",
+                  alignContents: "center",
+                  height: height * 0.1,
+                  alignSelf: "center",
+                }}
+              >
+                <View
+                  style={{
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
+                >
+                  <View>
+                    <Image source={IMAGEPATH.LOCICON} />
+                  </View>
+                  <View>
+                    <Text style={{ color: "white" }}>Longest Distance</Text>
+                  </View>
+                  <View>
+                    <Text style={{ color: "white" }}>3.2 Km</Text>
+                  </View>
+                </View>
               </View>
-              <View>
-                <Text style={{ color: "white" }}>Longest Distance</Text>
-              </View>
-              <View>
-                <Text style={{ color: "white" }}>3.2 Km</Text>
-              </View>
-            </View>
-            </View>
-          </ImageBackground>
-        </View>
-       
+            </ImageBackground>
+          </View>
         </ScrollView>
       </ImageBackground>
     </View>
