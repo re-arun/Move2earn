@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin/Move2earn/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/admin/.gradle/caches/transforms-3/18089265c50d844bee8f2067a1fc23f8/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

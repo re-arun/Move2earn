@@ -6,7 +6,8 @@ import {
   Image,
   Dimensions,
   TouchableOpacity,
-  ScrollView,FlatList
+  ScrollView,
+  FlatList,
 } from "react-native";
 import React, { useState } from "react";
 import * as Progress from "react-native-progress";
@@ -14,60 +15,57 @@ import { IMAGEPATH } from "../../Icon/Icon";
 import { SafeAreaView } from "react-native-safe-area-context";
 const { height, width } = Dimensions.get("screen");
 const attr = [
-    {
-      image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-      text1: "Strength",
-      color:'',
-      progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-      number2:"0.3",
-      
-      number: " 9",
-    },
-    {
-        image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-        text1: "Strength",
-        
-        progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-        number2:"0.3",
-        
-        number: " 9",
-      },
-      {
-        image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-        text1: "Strength",
-        
-        progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-        number2:"0.3",
-        
-        number: " 9",
-      },
-      {
-        image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-        text1: "Strength",
-        
-        progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-        number2:"0.3",
-        
-        number: " 9",
-      },
-      {
-        image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-        text1: "Strength",
-        
-        progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-        number2:"0.3",
-        
-        number: " 9",
-      },  {
-        image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-        text1: "Strength",
-        
-        progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-        number2:"0.3",
-        
-        number: " 9",
-      },
-]
+  {
+    // image: require("../../images/ShowDetails/RedRec/RedRec.png"),
+    image:IMAGEPATH.RED,
+    text1: "Strength",
+    color: "#CAE823",
+    progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
+    number2: "0.3",
+
+    number: " 9",
+  },
+  {
+    // image: require("../../images/ShowDetails/RedRec/RedRec.png"),
+    image:IMAGEPATH.GREEN,
+    text1: "Luck",
+
+    
+    number2: "0.3",
+    color:"#23D0E8",
+    number: " 9",
+  },
+  {
+    image:IMAGEPATH.ORANGE,
+    text1: " Enduring",
+
+   
+    number2: "0.3",
+    color:"#A787EC",
+    number: " 9",
+  },
+  {
+    image:IMAGEPATH.PINK,
+    // imagee:IMAGEPATH.ATTCONTAINER,
+    text1: "Beauty ",
+
+    
+    number2: "0.3",
+    color:"#E86A23",
+    number: " 9",
+  },
+  {
+    image:IMAGEPATH.SKYBLUE,
+    text1: "Comfort",
+    color:"#DAA49C",
+  
+    number2: "0.3",
+
+    number: " 9",
+  },
+
+];
+
 const ShoeDetials = ({ navigation }) => {
   const { prog, setProg } = useState();
   return (
@@ -92,7 +90,7 @@ const ShoeDetials = ({ navigation }) => {
             </TouchableOpacity>
             <View
               style={{
-                height: height * 0.4,
+                height: height * 0.37,
                 width: width * 0.9,
                 // backgroundColor: "green",
                 justifyContent: "center",
@@ -202,12 +200,19 @@ const ShoeDetials = ({ navigation }) => {
                     style={{
                       height: 30,
                       width: 83,
-                      backgroundColor: "#3BD0C7",
-                      borderRadius: 50,
+                  
                     }}
-                  >
-                    <View style={{ top: 5 }}>
-                      <Text style={{ color: "white", textAlign: "center" }}>
+                  ><Progress.Bar
+                    progress={0.7}
+                    width={83}
+                    height={30}
+                    color={"#3BD0C7"}
+                    borderRadius={50}
+                    indeterminate={true}
+                  />
+
+                    <View style={{  position:'absolute', alignSelf:'center', top:8}}>
+                      <Text style={{ color: "white", textAlign: "center" , }}>
                         87/100
                       </Text>
                     </View>
@@ -289,68 +294,71 @@ const ShoeDetials = ({ navigation }) => {
                     Attributes
                   </Text>
                 </View>
-               
 
+                {/* Flatlist */}
 
-{/* Flatlist */}
-
- <FlatList
-                numColumns={2}
-                data={attr}
-                showsVerticalScrollIndicator={false}
-                // horizontal={true}
-                renderItem={({ item }) => {
-                  return (  
-               
-                <View
-                  style={{
-                    backgroundColor: "red",
-                    height: height * 0.03,
-                    width: width * 0.9,
-                    alignSelf: "center",
-                    left:20
+                <FlatList
+                  data={attr}
+                  showsVerticalScrollIndicator={false}
+                  // horizontal={true}
+                  renderItem={({ item }) => {
+                    return (
+                      <View
+                        style={{
+                          // backgroundColor: "red",
+                          height: height * 0.045,
+                          width: width * 0.8,
+                          alignSelf: "center",
+                          // left:20,
+                        }}
+                      >
+                        <View
+                          style={{
+                            flexDirection: "row",
+                            justifyContent: "space-between",
+                            // backgroundColor: "green",
+                            // alignSelf: "center",
+                          }}
+                        >
+                          <View>
+                            <Image source={item.image} />
+                          </View>
+                          <View>
+                            <Text
+                              style={{
+                                color: "white",
+                                fontSize: 12,
+                                fontWeight: "400",
+                              }}
+                            >
+                              {item.text1}
+                            </Text>
+                          </View>
+                          <View> 
+                            <Progress.Bar
+                              progress={item.number2}
+                              width={width * 0.55}
+                              height={height * 0.012}
+                              // style={{backgroundColor:'red'}}
+                              color={item.color}
+                            />
+                          </View>
+                          <View>
+                            <Text
+                              style={{
+                                color: "white",
+                                fontSize: 12,
+                                fontWeight: "400",
+                              }}
+                            >
+                              {item.number2}
+                            </Text>
+                          </View>
+                        </View>
+                      </View>
+                    );
                   }}
-                >
-                  <View style={{ flexDirection: "row", justifyContent:'space-between' ,}}>
-                    <View>
-                      <Image source={item.image} />
-                    </View>
-                    <View>
-                      <Text
-                        style={{
-                          color: "white",
-                          fontSize: 12,
-                          fontWeight: "400",
-                        }}
-                      >
-                        {item.text1}
-                      </Text>
-                    </View>
-                    <View>
-                      <Progress.Bar
-                        progress={item.number2}
-                        width={width * 0.6}
-                        height={height * 0.012}
-                        color={"#C5E224"}
-                      />
-                    </View>
-                    <View>
-                      <Text
-                        style={{
-                          color: "white",
-                          fontSize: 12,
-                          fontWeight: "400",
-                        }}
-                      >
-                        {item.number}
-                      </Text>
-                    </View>
-                  </View>
-                </View> 
-
-                );
-                }}
-              />
+                />
               </ImageBackground>
             </View>
           </View>
