@@ -110,7 +110,8 @@ const ShoeDetials = ({ navigation }) => {
                 }}
               >
                 <View style={{ justifyContent: "center" }}>
-                  <Text
+                 <TouchableOpacity onPress={() => navigation.navigate("Sporting")}>
+                 <Text
                     style={{
                       color: "white",
                       fontWeight: "700",
@@ -120,6 +121,7 @@ const ShoeDetials = ({ navigation }) => {
                   >
                     SHOES-1
                   </Text>
+                 </TouchableOpacity>
                 </View>
                 <View>
                   <TouchableOpacity onPress={() => navigation.navigate("Myshoes")}>

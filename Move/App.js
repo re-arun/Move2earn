@@ -25,6 +25,7 @@ import SecondStep from "./src/assets/screens/SelectGender/Second";
 import HBottom from "./src/assets/screens/HomeBottom/HBottom";
 import Notification from "./src/assets/screens/Notification/Notification";
 import ShoeDetials from "./src/assets/screens/Details/ShoeDetials";
+import Sporting from "./src/assets/screens/Sporting/Sporting";
 const { height, width } = Dimensions.get("screen");
 // 2nd Screeen started here
 
@@ -104,6 +105,16 @@ function Gender({ navigation }) {
           <Tab.Screen
           name="ShoeDetails"
           component={ShoeDetials}
+          options={() => ({
+            tabBarStyle: {
+              display: "none",
+            },
+            tabBarButton: () => null,
+          })}
+        />
+          <Tab.Screen
+          name="Sporting"
+          component={Sporting}
           options={() => ({
             tabBarStyle: {
               display: "none",

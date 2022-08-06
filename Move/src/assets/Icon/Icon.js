@@ -68,7 +68,13 @@ export const IMAGEPATH = {
     GREEN:require('../images/ShowDetails/GreenRec/Green.png'),
     ORANGE:require('../images/ShowDetails/OrangeRec/Orange.png'),
     SKYBLUE:require('../images/ShowDetails/Sblue/Sblue.png'),
-
+    LEFTICON:require("../images/Sporting/LeftArrow/Left.png"),
+    RIGHTICON:require("../images/Sporting/RightIArrow/right.png"),
+    SQUARECONT:require("../images/Sporting/SquareContainer/squareContainer.png"),
+    RECTCONTAINER:require("../images/Sporting/recContainer/recContainer.png"),
+    FLATCONTAINER:require("../images/Sporting/FlatContainer/flatContainer.png"),
+    FSQURECONTAINER:require("../images/Sporting/FContainer/FContainer.png")
+    
 
 
 

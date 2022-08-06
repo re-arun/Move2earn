@@ -572,8 +572,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   HelloVIew: {
-    height: height * 0.03,
+    height: height * 0.04,
     width: width * 0.49,
+    // backgroundColor:'red', 
     // borderWidth:1,
     // borderColor: "white",
     //  justifyContent: "center",
