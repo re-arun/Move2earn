@@ -3,7 +3,7 @@ import {
   Text,
   View,
   Dimensions,
-  Modal,
+
   Image,
   ImageBackground,
   TouchableOpacity,
@@ -13,12 +13,19 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import { SwiperFlatList } from "react-native-swiper-flatlist";
+import Modal from 'react-native-modal';
 import CircularProgress from "react-native-circular-progress-indicator";
 import { IMAGEPATH } from "../../Icon/Icon";
 import HBottom from "../HomeBottom/HBottom";
 const { height, width } = Dimensions.get("window");
 
 const Dashboard = ({ navigation }) => {
+  
+  const [isModalVisible, setModalVisible] = useState(true);
+
+      const toggleModal = () => {
+        setModalVisible(!isModalVisible);
+      };
   return (
     <View style={styles.mainContainer}>
       <ImageBackground
@@ -272,6 +279,66 @@ const Dashboard = ({ navigation }) => {
               </View>
             </ImageBackground>
           </View>
+          <Modal
+          animationType="slide"
+          isVisible={isModalVisible}
+          transparent={true}
+          visible={isModalVisible}
+          onRequestClose={() => {
+            Alert.alert('Modal has been closed.');
+            setModalVisible(!isModalVisible);
+          }}>
+        
+          <View style={{}}>
+            <ImageBackground
+              style={{
+                width: width * 0.9,
+                height: height * 0.42,
+                justifyContent: 'center',
+              }}
+              source={IMAGEPATH.LOC_MODAL}>
+              <View
+                style={{
+                  flexDirection: 'column',
+                  height: height * 0.25,
+                  justifyContent: 'space-evenly',
+                }}>
+                <View style={{alignSelf: 'center'}}>
+                  <Text 
+                    style={{fontSize: 30, fontWeight: '500', color: 'white'}}>
+                    Use your location
+                  </Text>
+                </View>
+                <View style={{alignSelf: 'center', width: width * 0.7}}>
+                  <Text
+                    style={{
+                      fontSize: 14,
+                      fontWeight: '400',
+                      color: 'white',
+                      textAlign: 'center',
+                    }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Velit fusce mauris augue urna, elit lacus sit lacus.
+                  </Text>
+                </View>
+                <TouchableOpacity
+                //   onPress={() => navigation.navigate('Dashboard')}
+                
+                onPress={toggleModal}>
+                  <View style={{alignSelf: 'center'}}>
+                    <ImageBackground
+                      style={styles.borderStyle1}
+                      source={IMAGEPATH.BUTTON_RADIUS}>
+                      <View style={styles.loginTextView1}>
+                        <Text style={styles.loginTextStyle1}>Allow</Text>
+                      </View>
+                    </ImageBackground>
+                  </View>
+                </TouchableOpacity>
+              </View>
+            </ImageBackground>
+          </View>
+        </Modal>
         </ScrollView>
       </ImageBackground>
     </View>
@@ -338,6 +405,16 @@ const styles = StyleSheet.create({
     width: width * 0.06,
     justifyContent: "center",
   },
+  borderStyle1: {
+    //resizeMode: 'contain',
+    width: 102,
+    height: 45,
+
+    alignSelf: 'center',
+    position: 'absolute',
+    justifyContent: 'center',
+    borderRadius: 100,
+  },
   cRunView: {
     height: height * 0.04,
     alignSelf: "center",
@@ -364,6 +441,20 @@ const styles = StyleSheet.create({
     // borderColor: "white",
     width: width * 0.85,
     flexDirection: "row",
+  },
+  loginTextView1: {
+    height: height * 0.04,
+    width: width * 0.4,
+    // borderWidth: 1,
+    alignSelf: 'center',
+    // justifyContent:'center'
+  },
+  loginTextStyle1: {
+    fontSize: 14,
+    color: '#FFFFFF',
+    // fontFamily: 'Sen-regular',
+    textAlign: 'center',
+    fontWeight: '700',
   },
   TASKBG_ICON: {
     height: height * 0.2,

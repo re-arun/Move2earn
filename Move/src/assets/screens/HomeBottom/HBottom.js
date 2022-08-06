@@ -272,10 +272,11 @@ const MyShoes = ({ navigation }) => {
         <View style={styles.v1}>
           <View style={styles.v11}>
             <View>
-            <TouchableOpacity onPress={() =>navigation.navigate("Notification")}>
-
-              <Image source={IMAGEPATH.PROFILE_Icon} />
-            </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => navigation.navigate("Notification")}
+              >
+                <Image source={IMAGEPATH.PROFILE_Icon} />
+              </TouchableOpacity>
             </View>
           </View>
           <View style={styles.v12}>
@@ -323,7 +324,6 @@ const MyShoes = ({ navigation }) => {
             <View style={styles.a1}>
               <View style={{ flexDirection: "row" }}>
                 <View style={styles.v121}>
-                  
                   <Image
                     source={IMAGEPATH.DOLLAR}
                     style={{ height: 15, width: 15 }}
@@ -360,11 +360,20 @@ const MyShoes = ({ navigation }) => {
               />
             </View>
           </View>
-          <View style={styles.v14}>
-            <TouchableOpacity></TouchableOpacity>
+        </View>
+        <View
+          style={{
+            // backgroundColor: "red",
+            height: height * 0.04,
+            width: width * 1,
+            justifyContent: "center",
+          }}
+        >
+          <View style={{backgroundColor:'green', height:height*0.0015, width:width*0.9, alignSelf:'center'}}>
+
           </View>
         </View>
-        <View style={{ height: 22 }}></View>
+        {/* <View style={{ height: 22, backgroundColor:'green' }}></View> */}
         <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
           <View>
             <TouchableOpacity onPress={() => setCheck("Shoes")}>
@@ -406,8 +415,8 @@ const MyShoes = ({ navigation }) => {
                         <ImageBackground
                           source={item.ImageBackground}
                           style={{
-                            height: 300,
-                            width: 233,
+                            height: height*0.35,
+                            width: width*0.6,
                             // justifyContent:'center',
                             // alignItems:"center",
                             alignSelf: "center",
@@ -437,6 +446,7 @@ const MyShoes = ({ navigation }) => {
                           <View
                             style={{
                               // backgroundColor:'red',
+                              top:4,
                               left: 35,
                             }}
                           >
@@ -508,8 +518,8 @@ const MyShoes = ({ navigation }) => {
                           <ImageBackground
                             source={item.ImageBackground}
                             style={{
-                              height: 300,
-                              width: 233,
+                              height: height*0.35,
+                            width: width*0.6,
                               // justifyContent:'center',
                               // alignItems:"center",
                               alignSelf: "center",
@@ -540,6 +550,7 @@ const MyShoes = ({ navigation }) => {
                               style={{
                                 // backgroundColor:'red',
                                 left: 20,
+                                top:4,
                               }}
                             >
                               <Image source={item.image} style={{}} />
@@ -623,7 +634,7 @@ const styles = StyleSheet.create({
   v1: {
     height: height * 0.12,
     width: width * 1,
-    //backgroundColor: "red",
+    // backgroundColor: "green",
     flexDirection: "row",
   },
   v11: {
@@ -638,7 +649,7 @@ const styles = StyleSheet.create({
   v12: {
     height: height * 0.08,
     width: width * 0.426,
-    //backgroundColor: 'pink',
+    // backgroundColor: 'pink',
   },
 
   a1: {

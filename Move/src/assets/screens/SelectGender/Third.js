@@ -213,8 +213,8 @@ import {
                   <TouchableOpacity
                     style={styles.loginButtonVIew1}
          
-                    onPress={toggleModal}
-                    isVisible={isModalVisible}
+                    onPress={navi}
+                   
                     >
                     <ImageBackground
                       style={styles.borderStyle}
@@ -225,66 +225,7 @@ import {
                     
                     </ImageBackground>
                   </TouchableOpacity>
-                  <Modal
-          animationType="slide"
-     
-          transparent={true}
-          visible={isModalVisible}
-          onRequestClose={() => {
-            Alert.alert('Modal has been closed.');
-            setModalVisible(!isModalVisible);
-          }}>
-        
-          <View style={{}}>
-            <ImageBackground
-              style={{
-                width: width * 0.9,
-                height: height * 0.42,
-                justifyContent: 'center',
-              }}
-              source={IMAGEPATH.LOC_MODAL}>
-              <View
-                style={{
-                  flexDirection: 'column',
-                  height: height * 0.25,
-                  justifyContent: 'space-evenly',
-                }}>
-                <View style={{alignSelf: 'center'}}>
-                  <Text 
-                    style={{fontSize: 30, fontWeight: '500', color: 'white'}}>
-                    Use your location
-                  </Text>
-                </View>
-                <View style={{alignSelf: 'center', width: width * 0.7}}>
-                  <Text
-                    style={{
-                      fontSize: 14,
-                      fontWeight: '400',
-                      color: 'white',
-                      textAlign: 'center',
-                    }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    Velit fusce mauris augue urna, elit lacus sit lacus.
-                  </Text>
-                </View>
-                <TouchableOpacity
-                //   onPress={() => navigation.navigate('Dashboard')}
-                
-                onPress={toggleModal,navi}>
-                  <View style={{alignSelf: 'center'}}>
-                    <ImageBackground
-                      style={styles.borderStyle1}
-                      source={IMAGEPATH.BUTTON_RADIUS}>
-                      <View style={styles.loginTextView1}>
-                        <Text style={styles.loginTextStyle1}>Allow</Text>
-                      </View>
-                    </ImageBackground>
-                  </View>
-                </TouchableOpacity>
-              </View>
-            </ImageBackground>
-          </View>
-        </Modal>
+                 
                 </View>
               </View>
             </View>

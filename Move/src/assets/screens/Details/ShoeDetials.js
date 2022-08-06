@@ -21,7 +21,7 @@ const attr = [
     text1: "Strength",
     color: "#CAE823",
     progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
-    number2: "0.3",
+    number2: 0.3,
 
     number: " 9",
   },
@@ -31,7 +31,7 @@ const attr = [
     text1: "Luck",
 
     
-    number2: "0.3",
+    number2: 0.3,
     color:"#23D0E8",
     number: " 9",
   },
@@ -40,7 +40,7 @@ const attr = [
     text1: " Enduring",
 
    
-    number2: "0.3",
+    number2: 0.3,
     color:"#A787EC",
     number: " 9",
   },
@@ -50,7 +50,7 @@ const attr = [
     text1: "Beauty ",
 
     
-    number2: "0.3",
+    number2: 0.3,
     color:"#E86A23",
     number: " 9",
   },
@@ -59,7 +59,7 @@ const attr = [
     text1: "Comfort",
     color:"#DAA49C",
   
-    number2: "0.3",
+    number2: 0.3,
 
     number: " 9",
   },
@@ -122,7 +122,7 @@ const ShoeDetials = ({ navigation }) => {
                   </Text>
                 </View>
                 <View>
-                  <TouchableOpacity>
+                  <TouchableOpacity onPress={() => navigation.navigate("Myshoes")}>
                     <View>
                       <Image source={IMAGEPATH.BUTTON_RADIUS} />
                       <View

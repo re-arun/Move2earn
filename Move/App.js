@@ -82,7 +82,7 @@ function Gender({ navigation }) {
           })}
         />
         <Tab.Screen
-          name="HBottom"
+          name="Myshoes"
           component={HBottom}
           options={() => ({
             tabBarStyle: {
