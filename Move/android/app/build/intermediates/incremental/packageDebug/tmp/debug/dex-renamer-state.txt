@@ -1,4 +1,4 @@
-#Sat Aug 06 11:49:34 IST 2022
+#Tue Aug 09 18:47:59 IST 2022
 base.0=/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.2=/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

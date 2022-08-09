@@ -19,6 +19,7 @@ import React, {useState} from 'react';
 import {IMAGEPATH} from '../../Icon/Icon';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import Move from '../../../../App';
 const {height, width} = Dimensions.get('screen');
 function HomeScreen({navigation}) {
   const [checked, setChecked] = useState('');
@@ -336,6 +337,7 @@ function DetailsScreen({navigation}) {
     }
   };
   return (
+    <SafeAreaView>
     <View style={styles.mainContainer}>
       <ImageBackground
         style={styles.ImageBackground}
@@ -476,6 +478,7 @@ function DetailsScreen({navigation}) {
         </View>
       </ImageBackground>
     </View>
+    </SafeAreaView>
   );
 }
 
@@ -538,6 +541,7 @@ function ThirdStep({navigation}) {
     }
   };
   return (
+    <SafeAreaView>
     <View style={styles.mainContainer}>
       <ImageBackground
         style={styles.ImageBackground}
@@ -658,7 +662,7 @@ function ThirdStep({navigation}) {
               <View style={styles.loginButtonVIew}>
                 <TouchableOpacity
                   style={styles.loginButtonVIew1}
-                  onPress={() => navigation.navigate('Modall')}>
+                  onPress={() => navigation.navigate("BottomTabb")}>
                   <ImageBackground
                     style={styles.borderStyle}
                     source={IMAGEPATH.BORDER_COLOR}>
@@ -674,6 +678,7 @@ function ThirdStep({navigation}) {
         </View>
       </ImageBackground>
     </View>
+    </SafeAreaView>
   );
 }
 
@@ -687,9 +692,9 @@ const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
-function Gender({navigation}) {
+function Genderr({navigation}) {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
    
       <Tab.Navigator
       
@@ -719,12 +724,19 @@ function Gender({navigation}) {
             },
             tabBarButton: () => null,
           })} />
+            {/* <Stack.Screen name="Modall" component={SelectGender} /> */}
+        <Tab.Screen name="Dashboard" component={Move}  options={() => ({
+            tabBarStyle: {
+              display: 'none',
+            },
+            tabBarButton: () => null,
+          })} />
       </Tab.Navigator>
     </NavigationContainer>
   );
 }
 
-export default Gender;
+export default Genderr;
 const styles = StyleSheet.create({
   textStyle: {
     color: '#FFFFFF',
@@ -940,17 +952,17 @@ const styles = StyleSheet.create({
   },
   textColor1: {
     color: '#FFFFFF',
-    fontSize: 16,
+    fontSize: 14.5,
     fontWeight: '400',
-    // fontFamily: 'Sen-regualr',
-    lineHeight:23,
+    fontFamily: 'sen-Regular',
+    // lineHeight:23,
     textAlign: 'center',
   },
   textColor: {
     color: '#FFFFFF',
     fontSize: 30,
     fontWeight: '700',
-    // fontFamily: 'Saira SemiCondensed-regular',
+    fontFamily: 'sairasemicondensed-Regular',
     textAlign: 'center',
   },
   ProgressViewMain: {

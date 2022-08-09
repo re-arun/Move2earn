@@ -11,6 +11,8 @@ import {
   StatusBar,
   ScrollView,
 } from "react-native";
+import LinearGradient from "react-native-linear-gradient";
+import MyBottomTab from "../HomeBottom/BottomT";
 import React, { useState } from "react";
 import { SwiperFlatList } from "react-native-swiper-flatlist";
 import Modal from 'react-native-modal';
@@ -32,13 +34,14 @@ const Dashboard = ({ navigation }) => {
         style={styles.ImageBackground}
         source={IMAGEPATH.SPLASH_BACKGROUND}
       >
+      <View style={{height:height*0.8}}>
         <StatusBar barStyle="light-content"></StatusBar>
         <ScrollView>
           <View style={styles.fakeView}></View>
           <View style={styles.headerVIew}>
             <View style={{ width: width * 0.04 }}></View>
             <View style={styles.headingView}>
-              <View style={{ height: height * 0.02 }}></View>
+              {/* <View style={{ height: height * 0.02 }}></View> */}
               <View style={styles.HelloVIew2}>
                 <Text style={styles.HelloTExt}>Hello! Umair Siddiqui</Text>
               </View>
@@ -48,7 +51,7 @@ const Dashboard = ({ navigation }) => {
             </View>
 
             <View style={styles.BellView}>
-              <TouchableOpacity onPress={() => navigation.navigate("First")}>
+              <TouchableOpacity onPress={() => navigation.navigate("Genderr")}>
                 <Image source={IMAGEPATH.BELL_Icon} />
               </TouchableOpacity>
             </View>
@@ -283,20 +286,34 @@ const Dashboard = ({ navigation }) => {
           animationType="slide"
           isVisible={isModalVisible}
           transparent={true}
+          hasBackdrop={true}
+          
           visible={isModalVisible}
           onRequestClose={() => {
             Alert.alert('Modal has been closed.');
             setModalVisible(!isModalVisible);
           }}>
         
-          <View style={{}}>
-            <ImageBackground
+        <View  style={{
+              borderWidth: 3,
+              borderTopColor: "rgb(199,112,193)",
+              borderRightColor: "rgb(147,182,203)",
+              borderLeftColor: "rgb(147,182,203)",
+              borderBottomColor: "rgb(176,244,165)",
+              borderRadius: 15,
+              alignSelf: "center",
+            }} >
+         <LinearGradient
+             colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)', 'rgba(0, 0, 0, 0.25);']}
               style={{
+                height: height * 0.3,
+                alignSelf: "center",
                 width: width * 0.9,
-                height: height * 0.42,
-                justifyContent: 'center',
+                borderRadius: 15,
+                backgroundColor: 'rgba(0,0,0,0.5)',
               }}
-              source={IMAGEPATH.LOC_MODAL}>
+            >
+
               <View
                 style={{
                   flexDirection: 'column',
@@ -305,17 +322,18 @@ const Dashboard = ({ navigation }) => {
                 }}>
                 <View style={{alignSelf: 'center'}}>
                   <Text 
-                    style={{fontSize: 30, fontWeight: '500', color: 'white'}}>
+                    style={{fontSize: 30, fontWeight: '500', color: 'white', fontFamily:"sairasemiCondensed-Regular", }}>
                     Use your location
                   </Text>
                 </View>
                 <View style={{alignSelf: 'center', width: width * 0.7}}>
                   <Text
                     style={{
-                      fontSize: 14,
+                      fontSize: height*0.017,
                       fontWeight: '400',
                       color: 'white',
                       textAlign: 'center',
+                      fontFamily:"sen-regular"
                     }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     Velit fusce mauris augue urna, elit lacus sit lacus.
@@ -336,10 +354,11 @@ const Dashboard = ({ navigation }) => {
                   </View>
                 </TouchableOpacity>
               </View>
-            </ImageBackground>
+            </LinearGradient>
           </View>
         </Modal>
         </ScrollView>
+   </View>
       </ImageBackground>
     </View>
   );
@@ -358,7 +377,7 @@ const styles = StyleSheet.create({
   sendCOdeTExt: {
     fontSize: 12,
     color: "#FFFFFF",
-    fontFamily: "Sen-Regular",
+    fontFamily: "sen-Regular",
     textAlign: "center",
     fontWeight: "700",
     lineHeight: 23,
@@ -387,7 +406,7 @@ const styles = StyleSheet.create({
     lineHeight: 23,
     fontWeight: "700",
     color: "#FFFFFF",
-    fontFamily: "Sen-Regular",
+    fontFamily: "sen-Regular",
   },
   RUnTxtView: {
     height: height * 0.03,
@@ -443,18 +462,22 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   loginTextView1: {
-    height: height * 0.04,
-    width: width * 0.4,
+    height: height * 0.05,
+    width: width * 0.21,
     // borderWidth: 1,
     alignSelf: 'center',
-    // justifyContent:'center'
+    alignItems:'center',
+    // backgroundColor:'red',
+    justifyContent:'center',
+    borderRadius:25
   },
   loginTextStyle1: {
     fontSize: 14,
     color: '#FFFFFF',
-    // fontFamily: 'Sen-regular',
+    fontFamily: 'sen-Regular',
     textAlign: 'center',
     fontWeight: '700',
+    bottom:5,
   },
   TASKBG_ICON: {
     height: height * 0.2,
@@ -474,7 +497,7 @@ const styles = StyleSheet.create({
     lineHeight: 23,
     fontWeight: "400",
     color: "#6D776B",
-    fontFamily: "Sen-Regular",
+    fontFamily: "sen-Regular",
   },
   MIdHeadingTextStyle: {
     fontSize: 20,
@@ -572,7 +595,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   HelloVIew: {
-    height: height * 0.04,
+    height: height * 0.045,
     width: width * 0.49,
     // backgroundColor:'red', 
     // borderWidth:1,
@@ -581,7 +604,7 @@ const styles = StyleSheet.create({
     //  alignItems:'center'
   },
   HelloVIew2: {
-    height: height * 0.02,
+    height: height * 0.025,
     width: width * 0.49,
     // borderWidth:1,
     borderColor: "white",
@@ -599,7 +622,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 23,
     fontWeight: "400",
-    fontFamily: "sen-regular",
+    fontFamily: "sen-Regular",
   },
   headingView: {
     height: height * 0.1,
@@ -617,17 +640,15 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   mainContainer: {
-    height: "100%",
-    width: "100%",
-    // justifyContent:'center'
+
   },
   ImageBackground: {
-    height: "100%",
-    width: "100%",
-    //justifyContent:'center'
+    
+   height:height*1,
+   width:width*1
   },
   fakeView: {
-    height: height * 0.06,
+    height: height * 0.04,
     width: width * 0.95,
     alignSelf: "center",
   },
@@ -642,4 +663,10 @@ const styles = StyleSheet.create({
     // justifyContent: "center",
   },
   text: { fontSize: 15, textAlign: "center" },
+  LinearGradien: {
+    // flex: 1,
+height:height*0.3,
+alignSelf:"center",
+width:width*0.9
+  },
 });

@@ -46,7 +46,7 @@ const Notification = ({ navigation }) => {
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("ShoeDetails")}>
           <View style={{top:5}}>
-            <Text style={{ color: "white", fontSize: 30, fontWeight: "700" }}>
+            <Text style={{ color: "white", fontSize: 30, fontWeight: "700", fontFamily: 'sairasemicondensed-Regular', }}>
               Notification
             </Text>
           </View>
@@ -60,7 +60,7 @@ const Notification = ({ navigation }) => {
               renderItem={({ item }) => {
                 return <View style={{height:height*0.1,width:width*1, top:40,bottom:10}}>
 
-                    <Text style={{color:"white", fontSize:14, fontWeight:'400',lineHeight:22}}>
+                    <Text style={{color:"white", fontSize:14, fontWeight:'400',lineHeight:22, fontFamily: 'sairasemicondensed-Regular',}}>
                         {item.note}
                     </Text>
                 </View>;

@@ -94,7 +94,7 @@ function SecondStep({navigation}) {
           <View
             style={styles.StepContainer}>
             <View style={{}}>
-            <TouchableOpacity onPress={() => navigation.navigate('First')}>
+            <TouchableOpacity onPress={() => navigation.navigate('One')}>
               <Image source={IMAGEPATH.STEP_ELIPS} />
               <Image
                 source={IMAGEPATH.STEP_DONE}

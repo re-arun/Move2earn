@@ -12,12 +12,13 @@ import {
 import React, { useState } from "react";
 import * as Progress from "react-native-progress";
 import { IMAGEPATH } from "../../Icon/Icon";
+import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 const { height, width } = Dimensions.get("screen");
 const attr = [
   {
     // image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-    image:IMAGEPATH.RED,
+    image: IMAGEPATH.RED,
     text1: "Strength",
     color: "#CAE823",
     progress: require("../../images/myShoe/shoesshadow/shoesshadow.png"),
@@ -27,43 +28,39 @@ const attr = [
   },
   {
     // image: require("../../images/ShowDetails/RedRec/RedRec.png"),
-    image:IMAGEPATH.GREEN,
+    image: IMAGEPATH.GREEN,
     text1: "Luck",
 
-    
     number2: 0.3,
-    color:"#23D0E8",
+    color: "#23D0E8",
     number: " 9",
   },
   {
-    image:IMAGEPATH.ORANGE,
+    image: IMAGEPATH.ORANGE,
     text1: " Enduring",
 
-   
     number2: 0.3,
-    color:"#A787EC",
+    color: "#A787EC",
     number: " 9",
   },
   {
-    image:IMAGEPATH.PINK,
+    image: IMAGEPATH.PINK,
     // imagee:IMAGEPATH.ATTCONTAINER,
     text1: "Beauty ",
 
-    
     number2: 0.3,
-    color:"#E86A23",
+    color: "#E86A23",
     number: " 9",
   },
   {
-    image:IMAGEPATH.SKYBLUE,
+    image: IMAGEPATH.SKYBLUE,
     text1: "Comfort",
-    color:"#DAA49C",
-  
+    color: "#DAA49C",
+
     number2: 0.3,
 
     number: " 9",
   },
-
 ];
 
 const ShoeDetials = ({ navigation }) => {
@@ -77,10 +74,9 @@ const ShoeDetials = ({ navigation }) => {
         <ScrollView>
           <View
             style={{
-              height: height * 1,
+              // height: height * 1,
               width: width * 0.9,
               alignSelf: "center",
-              // backgroundColor: "red",
             }}
           >
             <TouchableOpacity onPress={() => navigation.navigate("Dashboard")}>
@@ -90,13 +86,13 @@ const ShoeDetials = ({ navigation }) => {
             </TouchableOpacity>
             <View
               style={{
-                height: height * 0.37,
+                height: height * 0.38,
                 width: width * 0.9,
                 // backgroundColor: "green",
                 justifyContent: "center",
                 alignSelf: "center",
               }}
-            >
+             >
               <View style={{ left: 20 }}>
                 <Image source={IMAGEPATH.BIGSHOES} />
               </View>
@@ -110,21 +106,25 @@ const ShoeDetials = ({ navigation }) => {
                 }}
               >
                 <View style={{ justifyContent: "center" }}>
-                 <TouchableOpacity onPress={() => navigation.navigate("Sporting")}>
-                 <Text
-                    style={{
-                      color: "white",
-                      fontWeight: "700",
-                      fontSize: 18,
-                      lineHeight: 23,
-                    }}
+                  <TouchableOpacity
+                    onPress={() => navigation.navigate("Sporting")}
                   >
-                    SHOES-1
-                  </Text>
-                 </TouchableOpacity>
+                    <Text
+                      style={{
+                        color: "white",
+                        fontWeight: "700",
+                        fontSize: 18,
+                        lineHeight: 23,
+                      }}
+                    >
+                      SHOES-1
+                    </Text>
+                  </TouchableOpacity>
                 </View>
                 <View>
-                  <TouchableOpacity onPress={() => navigation.navigate("Myshoes")}>
+                  <TouchableOpacity
+                    onPress={() => navigation.navigate("Myshoes")}
+                  >
                     <View>
                       <Image source={IMAGEPATH.BUTTON_RADIUS} />
                       <View
@@ -142,23 +142,38 @@ const ShoeDetials = ({ navigation }) => {
               </View>
             </View>
             {/* Level */}
-            <View
+            {/* <View
               style={{
                 height: height * 0.2,
                 width: width * 0.9,
-                //   backgroundColor: "red",
+                  // backgroundColor: "red",
                 alignSelf: "center",
               }}
+            > */}
+            <View style={{height:height*0.02}}>
+
+            </View>
+
+            <View
+            style={{
+              borderWidth: 3,
+              borderTopColor: "rgb(199,112,193)",
+              borderRightColor: "rgb(147,182,203)",
+              borderLeftColor: "rgb(147,182,203)",
+              borderBottomColor: "rgb(176,244,165)",
+              borderRadius: 15,
+              alignSelf: "center",
+            }}
+          >
+                <LinearGradient
+             colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)', 'rgba(0, 0, 0, 0.25);']}
+              style={{
+                height: height * 0.2,
+                alignSelf: "center",
+                width: width * 0.9,
+                borderRadius: 15,
+              }}
             >
-              <ImageBackground
-                source={IMAGEPATH.LEVCONTAINER}
-                style={{
-                  height: height * 0.2,
-                  width: width * 1,
-                  ImageResize: "contain",
-                  alignSelf: "center",
-                }}
-              >
                 <View
                   style={{
                     flexDirection: "row",
@@ -202,19 +217,25 @@ const ShoeDetials = ({ navigation }) => {
                     style={{
                       height: 30,
                       width: 83,
-                  
                     }}
-                  ><Progress.Bar
-                    progress={0.7}
-                    width={83}
-                    height={30}
-                    color={"#3BD0C7"}
-                    borderRadius={50}
-                    indeterminate={true}
-                  />
+                  >
+                    <Progress.Bar
+                      progress={0.7}
+                      width={83}
+                      height={30}
+                      color={"#3BD0C7"}
+                      borderRadius={50}
+                      indeterminate={true}
+                    />
 
-                    <View style={{  position:'absolute', alignSelf:'center', top:8}}>
-                      <Text style={{ color: "white", textAlign: "center" , }}>
+                    <View
+                      style={{
+                        position: "absolute",
+                        alignSelf: "center",
+                        top: 8,
+                      }}
+                    >
+                      <Text style={{ color: "white", textAlign: "center" }}>
                         87/100
                       </Text>
                     </View>
@@ -253,30 +274,35 @@ const ShoeDetials = ({ navigation }) => {
                     color={"#C5E224"}
                   />
                 </View>
-              </ImageBackground>
+              </LinearGradient>
             </View>
-            <View
+            <View style={{height:height*0.025}}>
+
+</View>
+
+<View
+            style={{
+              borderWidth: 3,
+              borderTopColor: "rgb(199,112,193)",
+              borderRightColor: "rgb(147,182,203)",
+              borderLeftColor: "rgb(147,182,203)",
+              borderBottomColor: "rgb(176,244,165)",
+              borderRadius: 15,
+              alignSelf: "center",
+            }}
+          >
+                <LinearGradient
+             colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)', 'rgba(0, 0, 0, 0.25);']}
               style={{
-                height: height * 0.4,
-                width: width * 0.9,
-                // backgroundColor: "red",
+                height: height * 0.35,
                 alignSelf: "center",
+                width: width * 0.9,
+                borderRadius: 15,
               }}
             >
-              <ImageBackground
-                source={IMAGEPATH.ATTCONTAINER}
-                style={{
-                  height: height * 0.4,
-                  width: width * 1,
-                  ImageResize: "contain",
-                  alignSelf: "center",
-                  //   justifyContent:'flex-end'
-                  bottom: 50,
-                }}
-              >
                 <View
                   style={{
-                    height: height * 0.09,
+                    height: height * 0.03,
                     width: width * 0.8,
                     alignSelf: "center",
                     // backgroundColor:'green'
@@ -284,14 +310,14 @@ const ShoeDetials = ({ navigation }) => {
                 ></View>
                 <View
                   style={{
-                    height: height * 0.04,
+                    height: height * 0.05,
                     width: width * 0.8,
                     alignSelf: "center",
                     // backgroundColor: "green",
                   }}
                 >
                   <Text
-                    style={{ color: "white", fontSize: 16, fontWeight: "700" }}
+                    style={{ color: "white", fontSize: 16, fontWeight: "700",  fontFamily:'SairaSemiCondensed-Regular' }}
                   >
                     Attributes
                   </Text>
@@ -336,7 +362,7 @@ const ShoeDetials = ({ navigation }) => {
                               {item.text1}
                             </Text>
                           </View>
-                          <View> 
+                          <View>
                             <Progress.Bar
                               progress={item.number2}
                               width={width * 0.55}
@@ -361,7 +387,7 @@ const ShoeDetials = ({ navigation }) => {
                     );
                   }}
                 />
-              </ImageBackground>
+              </LinearGradient>
             </View>
           </View>
         </ScrollView>

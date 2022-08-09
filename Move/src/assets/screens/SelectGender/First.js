@@ -85,7 +85,7 @@ function First({ navigation }) {
           <StatusBar barStyle="light-content"></StatusBar>
           <View style={styles.fakeVIew3}></View>
           <View style={styles.backView}>
-            <TouchableOpacity onPress={() => navigation.goBack()} >
+            <TouchableOpacity onPress={() => navigation.navigate("Dashboard")} >
               <Image source={IMAGEPATH.BACK_ICON} />
             </TouchableOpacity>
           </View>

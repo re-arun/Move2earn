@@ -19,51 +19,36 @@ import React, { useState } from "react";
 import { IMAGEPATH } from "./src/assets/Icon/Icon";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import First from "./src/assets/screens/SelectGender/First";
-import ThirdStep from "./src/assets/screens/SelectGender/Third";
-import SecondStep from "./src/assets/screens/SelectGender/Second";
+import Bottom from "./src/assets/screens/HomeBottom/bottomHome";
+
 import HBottom from "./src/assets/screens/HomeBottom/HBottom";
 import Notification from "./src/assets/screens/Notification/Notification";
 import ShoeDetials from "./src/assets/screens/Details/ShoeDetials";
 import Sporting from "./src/assets/screens/Sporting/Sporting";
+import MyBottomTab from "./src/assets/screens/HomeBottom/BottomT";
+import Genderr from "./src/assets/screens/SelectGender/SelectGender";
+import BottomHome from "./src/assets/screens/HomeBottom/bottomHome";
+import Test from "./src/assets/screens/test";
 const { height, width } = Dimensions.get("screen");
-// 2nd Screeen started here
 
 const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
-function Gender({ navigation }) {
+function Move({ navigation }) {
   return (
     <NavigationContainer independent={true}>
-      <Tab.Navigator
+      <Stack.Navigator
         screenOptions={{ headerShown: false }}
-        initialRouteName="ShoeDetails"
+        initialRouteName="BottomTab"
       >
-        <Tab.Screen
-          name="First"
-          component={First}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
-        />
-        <Tab.Screen
-          name="Second"
-          component={SecondStep}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
-        />
+    
+      
         {/* <Stack.Screen name="Modall" component={SelectGender} /> */}
-        <Tab.Screen
-          name="Third"
-          component={ThirdStep}
+      
+        <Stack.Screen
+          name="Genderr"
+          component={Genderr}
           options={() => ({
             tabBarStyle: {
               display: "none",
@@ -71,10 +56,9 @@ function Gender({ navigation }) {
             tabBarButton: () => null,
           })}
         />
-
-        <Tab.Screen
-          name="Dashboard"
-          component={Dashboard}
+         <Stack.Screen
+          name="BottomTab"
+          component={BottomHome}
           options={() => ({
             tabBarStyle: {
               display: "none",
@@ -82,17 +66,18 @@ function Gender({ navigation }) {
             tabBarButton: () => null,
           })}
         />
-        <Tab.Screen
+       
+        <Stack.Screen
           name="Myshoes"
           component={HBottom}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
+        
         />
-        <Tab.Screen
+            <Stack.Screen
+          name="Bottom"
+          component={Bottom}
+        
+        />
+        <Stack.Screen
           name="Notification"
           component={Notification}
           options={() => ({
@@ -102,7 +87,7 @@ function Gender({ navigation }) {
             tabBarButton: () => null,
           })}
         />
-          <Tab.Screen
+          <Stack.Screen
           name="ShoeDetails"
           component={ShoeDetials}
           options={() => ({
@@ -112,9 +97,19 @@ function Gender({ navigation }) {
             tabBarButton: () => null,
           })}
         />
-          <Tab.Screen
+          <Stack.Screen
           name="Sporting"
           component={Sporting}
+          // options={() => ({
+          //   tabBarStyle: {
+          //     display: "none",
+          //   },
+          //   tabBarButton: () => null,
+          // })}
+        />
+        <Stack.Screen
+          name="BottomTabb"
+          component={MyBottomTab}
           options={() => ({
             tabBarStyle: {
               display: "none",
@@ -122,12 +117,22 @@ function Gender({ navigation }) {
             tabBarButton: () => null,
           })}
         />
-      </Tab.Navigator>
+           <Stack.Screen
+          name="Test"
+          component={Test}
+          options={() => ({
+            tabBarStyle: {
+              display: "none",
+            },
+            tabBarButton: () => null,
+          })}
+        />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
 
-export default Gender;
+export default Move;
 const styles = StyleSheet.create({
   textStyle: {
     color: "#FFFFFF",
