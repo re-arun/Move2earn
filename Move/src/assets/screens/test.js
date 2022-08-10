@@ -18,7 +18,7 @@ const Test = ({navigation}) => {
            borderRadius:10,
            alignSelf:"center"
         }}>
-        <LinearGradient colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)', 'rgba(0, 0, 0, 0.25);']} style={styles.LinearGradien}>
+        <LinearGradient colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)']} style={styles.LinearGradien}>
   <Text style={styles.buttonText}>
     Sign in with Facebook
   </Text>
