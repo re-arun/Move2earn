@@ -11,17 +11,21 @@ import {
   ScrollView,
 } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import MyBottomTab from "../HomeBottom/BottomT";
+
 import React, { useState } from "react";
 import { SwiperFlatList } from "react-native-swiper-flatlist";
 import Modal from "react-native-modal";
 import CircularProgress from "react-native-circular-progress-indicator";
 import { IMAGEPATH } from "../../Icon/Icon";
-import HBottom from "../HomeBottom/HBottom";
-const { height, width } = Dimensions.get("window");
 
-const Dashboard = ({ navigation }) => {
+const { height, width } = Dimensions.get("window");
+const Home = (props) => {
   const [isModalVisible, setModalVisible] = useState(true);
+  const Second = () => {
+    props.navigation.navigate("MyShoes", {
+      useState: "Running",
+    });
+  };
 
   const toggleModal = () => {
     setModalVisible(!isModalVisible);
@@ -32,8 +36,8 @@ const Dashboard = ({ navigation }) => {
         style={styles.ImageBackground}
         source={IMAGEPATH.SPLASH_BACKGROUND}
       >
-        <View style={{ height: height * 0.8 }}>
-          <StatusBar barStyle="light-content"></StatusBar>
+        <View style={{ height: height * 0.85 }}>
+          <StatusBar barStyle="dark-content"></StatusBar>
           <ScrollView>
             <View style={styles.fakeView}></View>
             <View style={styles.headerVIew}>
@@ -49,9 +53,7 @@ const Dashboard = ({ navigation }) => {
               </View>
 
               <View style={styles.BellView}>
-                <TouchableOpacity
-                  onPress={() => navigation.navigate("Genderr")}
-                >
+                <TouchableOpacity onPress={() => props.navigation.navigate("Notification")}>
                   <Image source={IMAGEPATH.BELL_Icon} />
                 </TouchableOpacity>
               </View>
@@ -70,16 +72,16 @@ const Dashboard = ({ navigation }) => {
                   index={2}
                   showPagination
                   paginationStyleItemActive={{
-                    height:10,
-                    width:10
+                    height: 10,
+                    width: 10,
                   }}
                   paginationActiveColor="#1EB808"
                   paginationDefaultColor="transparent"
                   paginationStyleItemInactive={{
                     borderColor: "gray",
                     borderWidth: 1,
-                    height:10,
-                    width:10
+                    height: 10,
+                    width: 10,
                   }}
                   paginationStyle={{
                     borderColor: "#434242",
@@ -122,7 +124,7 @@ const Dashboard = ({ navigation }) => {
                 </SwiperFlatList>
               </View>
             </View>
-          
+
             <View style={styles.buttonVIew}>
               <View
                 style={{
@@ -136,7 +138,10 @@ const Dashboard = ({ navigation }) => {
                 }}
               >
                 <LinearGradient
-                  colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)']}
+                  colors={[
+                    "rgba(255, 255, 255, 0.2)",
+                    "rgba(255, 255, 255, 0)",
+                  ]}
                   style={{
                     height: height * 0.12,
                     alignSelf: "center",
@@ -144,7 +149,7 @@ const Dashboard = ({ navigation }) => {
                     borderRadius: 15,
                   }}
                 >
-                  <TouchableOpacity>
+                  <TouchableOpacity onPress={() => Second()}>
                     <View style={styles.CycallingView}>
                       <Image
                         style={styles.RunImageStyle}
@@ -169,7 +174,10 @@ const Dashboard = ({ navigation }) => {
                 }}
               >
                 <LinearGradient
-                  colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)']}
+                  colors={[
+                    "rgba(255, 255, 255, 0.2)",
+                    "rgba(255, 255, 255, 0)",
+                  ]}
                   style={{
                     height: height * 0.12,
                     alignSelf: "center",
@@ -177,7 +185,9 @@ const Dashboard = ({ navigation }) => {
                     borderRadius: 15,
                   }}
                 >
-                  <TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={() => props.navigation.navigate("MyShoes")}
+                  >
                     <View style={styles.CycallingView}>
                       <Image
                         style={styles.RunImageStyle1}
@@ -202,7 +212,10 @@ const Dashboard = ({ navigation }) => {
                 }}
               >
                 <LinearGradient
-                 colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)']}
+                  colors={[
+                    "rgba(255, 255, 255, 0.2)",
+                    "rgba(255, 255, 255, 0)",
+                  ]}
                   style={{
                     height: height * 0.12,
                     alignSelf: "center",
@@ -241,7 +254,7 @@ const Dashboard = ({ navigation }) => {
               }}
             >
               <LinearGradient
-                colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0)']}
+                colors={["rgba(255, 255, 255, 0.2)", "rgba(255, 255, 255, 0)"]}
                 style={{
                   height: height * 0.2,
                   alignSelf: "center",
@@ -268,7 +281,7 @@ const Dashboard = ({ navigation }) => {
                     </View>
                     <View>
                       <View style={styles.sendCodeView}>
-                        <TouchableOpacity>
+                        <TouchableOpacity onPress={() => props.navigation.navigate("ShoeDetails")}>
                           <ImageBackground
                             style={styles.codeImageSTyle}
                             source={IMAGEPATH.CODE_ICON}
@@ -309,60 +322,79 @@ const Dashboard = ({ navigation }) => {
                 </View>
               </LinearGradient>
             </View>
-            <View
-              style={{
-                borderWidth: 1,
-                borderTopColor: "#7C7C7C",
-                borderRightColor: "#7C7C7C",
-                borderLeftColor: "#7C7C7C",
-                borderBottomColor: "#7C7C7C",
-                borderRadius: 15,
-                alignSelf: "center",
-                top:10
-              }}
-            >
-              <LinearGradient
-                colors={[
-                  "rgba(255, 255, 255, 0.1)",
-                  "rgba(255, 255, 255,0.1) )",
-                ]}
+            <View style={{ height: height * 0.17 }}>
+              <View
                 style={{
-                  height: height * 0.11,
+                  borderWidth: 1,
+                  borderTopColor: "#7C7C7C",
+                  borderRightColor: "#7C7C7C",
+                  borderLeftColor: "#7C7C7C",
+                  borderBottomColor: "#7C7C7C",
+                  borderRadius: 15,
                   alignSelf: "center",
-                  width: width * 0.9,
-                  overflow:'hidden'
-                 
+                  top: 10,
                 }}
               >
-                <View
+                <LinearGradient
+                  colors={[
+                    "rgba(255, 255, 255, 0.1)",
+                    "rgba(255, 255, 255,0.1) )",
+                  ]}
                   style={{
-                    justifyContent: "center",
-                    width: width * 0.8,
-                    // backgroundColor: "red",
-                    alignContents: "center",
-                    height: height * 0.1,
+                    height: height * 0.11,
                     alignSelf: "center",
+                    width: width * 0.9,
+                    overflow: "hidden",
                   }}
                 >
                   <View
                     style={{
-                      flexDirection: "row",
-                      justifyContent: "space-between",
-                      alignItems: "center",
+                      justifyContent: "center",
+                      width: width * 0.8,
+
+                      alignContents: "center",
+                      height: height * 0.1,
+                      alignSelf: "center",
                     }}
                   >
-                    <View>
-                      <Image source={IMAGEPATH.LOCICON} />
-                    </View>
-                    <View>
-                      <Text style={{ color: "white", fontFamily:"sen-Regular", fontSize:16, fontWeight:'400'}}>Longest Distance</Text>
-                    </View>
-                    <View>
-                      <Text style={{ color: "white", fontFamily:"sen-Regular" , fontSize:16, fontWeight:"700" }}>3.2 Km</Text>
+                    <View
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                      }}
+                    >
+                      <View>
+                        <Image source={IMAGEPATH.LOCICON} />
+                      </View>
+                      <View>
+                        <Text
+                          style={{
+                            color: "white",
+                            fontFamily: "sen-Regular",
+                            fontSize: 16,
+                            fontWeight: "400",
+                          }}
+                        >
+                          Longest Distance
+                        </Text>
+                      </View>
+                      <View>
+                        <Text
+                          style={{
+                            color: "white",
+                            fontFamily: "sen-Regular",
+                            fontSize: 16,
+                            fontWeight: "700",
+                          }}
+                        >
+                          3.2 Km
+                        </Text>
+                      </View>
                     </View>
                   </View>
-                </View>
-              </LinearGradient>
+                </LinearGradient>
+              </View>
             </View>
             <Modal
               animationType="slide"
@@ -455,12 +487,79 @@ const Dashboard = ({ navigation }) => {
             </Modal>
           </ScrollView>
         </View>
+        <View
+          style={{
+            height: height * 0.2,
+            width: width * 0.99,
+            alignSelf: "center",
+            // backgroundColor:'red'
+          }}
+        >
+          <View
+            style={{
+              borderWidth: 1,
+              borderTopColor: "#7C7C7C",
+              borderRightColor: "#7C7C7C",
+              borderLeftColor: "#7C7C7C",
+              borderBottomColor: "#7C7C7C",
+              borderRadius: 35,
+              alignSelf: "center",
+              overflow:'hidden'
+            }}
+          >
+            <LinearGradient
+              colors={["rgba(255, 255, 255, 0.2)", "rgba(255, 255, 255, 0)"]}
+              style={{
+                height: height * 0.11,
+                alignSelf: "center",
+                width: width * 0.98,
+                overflow: "hidden",
+                justifyContent:'center'
+              }}
+            >
+              <View style={{  flexDirection: "row", width:width*0.9, height:height*0.1, justifyContent:'space-between', alignSelf
+              :'center'}}>
+                <View
+                  style={{
+            
+                    height: height * 0.08,
+                    width: width * 0.2,
+                    alignSelf:'center',
+                    justifyContent:'center',
+                    alignItems:'center'
+
+                  }}
+                >
+                  <Image source={IMAGEPATH.BI1} />
+                </View>
+                <View>
+                  <View
+                    style={{  height: height * 0.10, width: width * 0.25,alignItems:'center'  , justifyContent:'center'}}
+                  >
+                   <ImageBackground source={IMAGEPATH.BI2C} style={{ height:height*0.082, width:width*0.16, resizeMode:"contain", justifyContent:'center'}} >
+<View style={{ height:height*0.05, alignSelf:'center', justifyContent:'center'}}>
+<Image source={IMAGEPATH.BI2} style={{resizeMode:'contain'}} />
+</View>
+                   </ImageBackground>
+                  </View>
+                </View>
+                <View>
+                  <View
+                    style={{  height: height * 0.10, width: width * 0.2, alignItems:'center' ,justifyContent:'center', alignSelf:'center' }}
+                  >
+                    <Image source={IMAGEPATH.BI3} />
+                  </View>
+                </View>
+              </View>
+            </LinearGradient>
+          </View>
+        </View>
       </ImageBackground>
     </View>
   );
 };
 
-export default Dashboard;
+export default Home;
 
 const styles = StyleSheet.create({
   sendView: {
@@ -756,7 +855,7 @@ const styles = StyleSheet.create({
     height: height * 0.17,
     // justifyContent: "center",
   },
-  text: { fontSize: 15, textAlign: "center",  },
+  text: { fontSize: 15, textAlign: "center" },
   LinearGradien: {
     // flex: 1,
     height: height * 0.3,

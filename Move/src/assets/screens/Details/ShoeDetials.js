@@ -123,7 +123,7 @@ const ShoeDetials = ({ navigation }) => {
                 </View>
                 <View>
                   <TouchableOpacity
-                    onPress={() => navigation.navigate("Myshoes")}
+                    onPress={() => navigation.navigate("SportLog")}
                   >
                     <View>
                       <Image source={IMAGEPATH.BUTTON_RADIUS} />
@@ -225,7 +225,7 @@ const ShoeDetials = ({ navigation }) => {
                       height={30}
                       color={"#3BD0C7"}
                       borderRadius={50}
-                      indeterminate={true}
+                      indeterminate={false}
                     />
 
                     <View
@@ -317,7 +317,7 @@ const ShoeDetials = ({ navigation }) => {
                   }}
                 >
                   <Text
-                    style={{ color: "white", fontSize: 16, fontWeight: "700",  fontFamily:'SairaSemiCondensed-Regular' }}
+                    style={{ color: "white", fontSize: 16, fontWeight: "700",  fontFamily:'sairasemicondensed-Regular' }}
                   >
                     Attributes
                   </Text>

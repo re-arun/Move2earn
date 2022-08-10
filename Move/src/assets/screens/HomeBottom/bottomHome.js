@@ -7,102 +7,22 @@ import {
   Dimensions,
   TouchableOpacity,
  FlatList,
+ StatusBar ,
   ScrollView,
 } from "react-native";
 import React, { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { IMAGEPATH } from "../../Icon/Icon";
-import { color } from "react-native-reanimated";
-import Dashboard from "../Dashboard/Dashboard";
-import Genderr from "../SelectGender/SelectGender";
-import MyShoes from "./HBottom";
+
 import ShoeDetials from "../Details/ShoeDetials";
+import Home from "../Dashboard/Home";
+
 const { height, width } = Dimensions.get("screen");
 
-const Running = [
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.SHOES,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.SHOES,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.SHOES,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.SHOES,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-];
+const Bottom = (props) => {
 
-const Cycling = [
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    cycle: IMAGEPATH.CYCLE,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.SHOES,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.SHOES,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-];
-
-const Walking = [
-  {
-    ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.WALKING_ICON,
-    left: IMAGEPATH.RIGHTICON,
-    date: "10 jun",
-    distance: "2.3 KM",
-    time: "00:03:31",
-    speed: "0.7 km/h",
-  },
-];
-
-const Bottom = ({ navigation }) => {
-  const [check, setCheck] = useState("Running");
-
+  const AlsoMyComponent = () => { props.navigation.navigate("Myshoes")}
+  const [check, setCheck] = useState("Home");
   return (
     <SafeAreaView>
       <ImageBackground
@@ -118,31 +38,30 @@ const Bottom = ({ navigation }) => {
                          
       
         <View>
-          {check == "Running" ? (
-            <View style={{height:height*0.8, width:width*1}}>
-            
-             <Dashboard />
-             
-            </View>
-          ) : check == "Cycling" ? (
+          {check == "Home" ? (
+  <View style={{height:height*0.8, width:width*1}}>
+
+    <Home />
+  </View>
+          ) : check == "Running" ? (
             <View style={{height:height*0.8, width:width*1}}>
             <ShoeDetials />
             
             </View>
           ) : (
-            <View style={{height:height*0.8, width:width*1}}>
-             <MyShoes/>
-            </View>
+            <View style={styles.mainContainer}>
+     
+    </View>
           )}
         </View>
    
         <ImageBackground source={IMAGEPATH.BOTTOMTAB} style={{height:height*0.1, width:width*1, }} >
         <View style={{ flexDirection: "row", justifyContent: "space-around"  }}>
           <View style={{ height: height * 0.15, width: width * 0.2 , justifyContent:'center', alignItems:'center'}}>
-            <TouchableOpacity onPress={() => setCheck("Running")}>
+            <TouchableOpacity onPress={() => setCheck("Home")}>
               <Image  source={IMAGEPATH.BI1}/>
             </TouchableOpacity>
-            {check == "Running" ? (
+            {check == "Home" ? (
               <View style={styles.bar}>
              
               </View>
@@ -151,11 +70,11 @@ const Bottom = ({ navigation }) => {
             )}
           </View>
           <View style={{ height: height * 0.15, width: width * 0.2 ,justifyContent:'center', alignItems:'center'}}>
-            <TouchableOpacity onPress={() => setCheck("Cycling")}>
+            <TouchableOpacity onPress={() => setCheck("Running")}>
             <Image source={IMAGEPATH.BI2C} />
             <Image  source={IMAGEPATH.BI2} style={{position:"absolute", alignSelf:'center', top:20,}}/>
             </TouchableOpacity>
-            {check == "Cycling" ? (
+            {check == "Running" ? (
               <View style={styles.bar}>
               
               </View>
@@ -164,12 +83,12 @@ const Bottom = ({ navigation }) => {
             )}
           </View>
           <View style={{ height: height * 0.15, width: width * 0.2 ,justifyContent:'center', alignItems:'center'}}>
-            <TouchableOpacity onPress={() => setCheck("Walking")}>
+            <TouchableOpacity onPress={() => setCheck("Details")}>
             <Image  source={IMAGEPATH.BI3}/>
             </TouchableOpacity>
 
             <View style={styles.bar}>
-              {check == "Walking" ? (
+              {check == "Details" ? (
                 <View style={styles.bar}>
               
               </View>

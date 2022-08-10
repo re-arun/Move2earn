@@ -11,17 +11,18 @@ import {
   StatusBar,
   SafeAreaView,
 } from 'react-native';
-
+import Move from '../../../../App';
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import LinearGradient from 'react-native-linear-gradient';
+
 import React, {useState} from 'react';
 import {IMAGEPATH} from '../../Icon/Icon';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Move from '../../../../App';
+
+
 const {height, width} = Dimensions.get('screen');
-function HomeScreen({navigation}) {
+function HomeScreen(props) {
   const [checked, setChecked] = useState('');
   var gender = ['Male', 'Female'];
   /**function for change  weight */
@@ -257,7 +258,7 @@ function HomeScreen({navigation}) {
               <View style={styles.loginButtonVIew}>
                 <TouchableOpacity
                   style={styles.loginButtonVIew1}
-                  onPress={() => navigation.navigate('Second')}>
+                  onPress={() => props.navigation.navigate('Second')}>
                   <ImageBackground
                     style={styles.borderStyle}
                     source={IMAGEPATH.BORDER_COLOR}>
@@ -278,7 +279,7 @@ function HomeScreen({navigation}) {
 
 // 2nd Screeen started here
 
-function DetailsScreen({navigation}) {
+function DetailsScreen(props) {
   const [checked, setChecked] = useState('');
   var gender = ['Male', 'Female'];
   /**function for change  weight */
@@ -342,7 +343,7 @@ function DetailsScreen({navigation}) {
       <ImageBackground
         style={styles.ImageBackground}
         source={IMAGEPATH.SPLASH_BACKGROUND}>
-        <StatusBar barStyle="light-content"></StatusBar>
+        <StatusBar barStyle="dark-content"></StatusBar>
         <View style={styles.fakeVIew3}></View>
         <View style={styles.backView}>
           <TouchableOpacity>
@@ -352,7 +353,7 @@ function DetailsScreen({navigation}) {
         <View style={{height: height * 1 ,top:20}}>
           <View
             style={styles.StepContainer}>
-            <View style={{}}>
+            <View >
               <Image source={IMAGEPATH.STEP_ELIPS} />
               <Image
                 source={IMAGEPATH.STEP_DONE}
@@ -362,7 +363,7 @@ function DetailsScreen({navigation}) {
             <View style={{alignSelf: 'center'}}>
               <Image source={IMAGEPATH.STEPS_REC} style={{width: 120}} />
             </View>
-            <TouchableOpacity onPress={() => navigation.navigate('First')}>
+            <TouchableOpacity onPress={() => props.navigation.navigate('First')}>
               <View style={{}}>
                 <Image source={IMAGEPATH.STEP_ELIPS} />
                 <Image
@@ -463,7 +464,7 @@ function DetailsScreen({navigation}) {
               <View style={styles.loginButtonVIew}>
                 <TouchableOpacity
                   style={styles.loginButtonVIew1}
-                  onPress={() => navigation.navigate('Third')}>
+                  onPress={() => props.navigation.navigate('Third')}>
                   <ImageBackground
                     style={styles.borderStyle}
                     source={IMAGEPATH.BORDER_COLOR}>
@@ -482,7 +483,7 @@ function DetailsScreen({navigation}) {
   );
 }
 
-function ThirdStep({navigation}) {
+function ThirdStep(props) {
   const [checked, setChecked] = useState('');
   var gender = ['Male', 'Female'];
   /**function for change  weight */
@@ -576,7 +577,7 @@ function ThirdStep({navigation}) {
             <View style={{alignSelf: 'center'}}>
               <Image source={IMAGEPATH.STEP_E_REc} style={{width: 120}} />
             </View>
-            <TouchableOpacity onPress={() => navigation.navigate('Second')}>
+            <TouchableOpacity onPress={() => props.navigation.navigate('Second')}>
               <View style={{}}>
                 <Image source={IMAGEPATH.STEP_ELIPS} />
                 <Image
@@ -662,7 +663,7 @@ function ThirdStep({navigation}) {
               <View style={styles.loginButtonVIew}>
                 <TouchableOpacity
                   style={styles.loginButtonVIew1}
-                  onPress={() => navigation.navigate("BottomTabb")}>
+                  onPress={() => props.navigation.navigate("Move")}>
                   <ImageBackground
                     style={styles.borderStyle}
                     source={IMAGEPATH.BORDER_COLOR}>
@@ -692,14 +693,14 @@ const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
-function Genderr({navigation}) {
+function Genderr(props) {
   return (
     <NavigationContainer independent={true}>
    
       <Tab.Navigator
       
         screenOptions={{headerShown: false}}
-        initialRouteName="First">
+        >
         <Tab.Screen
           name="First"
           component={HomeScreen}
@@ -725,12 +726,17 @@ function Genderr({navigation}) {
             tabBarButton: () => null,
           })} />
             {/* <Stack.Screen name="Modall" component={SelectGender} /> */}
-        <Tab.Screen name="Dashboard" component={Move}  options={() => ({
+            <Tab.Screen
+          name="Move"
+          component={Move}
+          options={() => ({
             tabBarStyle: {
               display: 'none',
             },
             tabBarButton: () => null,
-          })} />
+          })}
+         
+        />
       </Tab.Navigator>
     </NavigationContainer>
   );

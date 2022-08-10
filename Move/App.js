@@ -11,122 +11,78 @@ import {
   StatusBar,
   SafeAreaView,
 } from "react-native";
-import LocModal from "./src/assets/screens/LocationModal/LocModal";
-import Dashboard from "./src/assets/screens/Dashboard/Dashboard";
+
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import LinearGradient from "react-native-linear-gradient";
 import React, { useState } from "react";
 import { IMAGEPATH } from "./src/assets/Icon/Icon";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Bottom from "./src/assets/screens/HomeBottom/bottomHome";
-
-import HBottom from "./src/assets/screens/HomeBottom/HBottom";
-import Notification from "./src/assets/screens/Notification/Notification";
-import ShoeDetials from "./src/assets/screens/Details/ShoeDetials";
-import Sporting from "./src/assets/screens/Sporting/Sporting";
-import MyBottomTab from "./src/assets/screens/HomeBottom/BottomT";
 import Genderr from "./src/assets/screens/SelectGender/SelectGender";
-import BottomHome from "./src/assets/screens/HomeBottom/bottomHome";
-import Test from "./src/assets/screens/test";
+import Notification from "./src/assets/screens/Notification/Notification";
+import MyShoes from "./src/assets/screens/ShoeCycle/ShoesCycle";
+import Home from "./src/assets/screens/Dashboard/Home";
+import ShoeDetials from "./src/assets/screens/Details/ShoeDetials";
+import Sportlog from "./src/assets/screens/SportLog/Sportlog";
+import Gender from "./src/assets/screens/HomeBottom/BottomT";
+import Bottom from "./src/assets/screens/HomeBottom/bottomHome";
 const { height, width } = Dimensions.get("screen");
 
 const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
-function Move({ navigation }) {
+function Move(props) {
   return (
     <NavigationContainer independent={true}>
       <Stack.Navigator
         screenOptions={{ headerShown: false }}
-        initialRouteName="BottomTab"
+        initialRouteName="Gender"
       >
     
       
         {/* <Stack.Screen name="Modall" component={SelectGender} /> */}
       
-        <Stack.Screen
+        {/* <Stack.Screen
           name="Genderr"
           component={Genderr}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
+          
+        /> */}
+           
+           <Stack.Screen
+          name="Gender"
+          component={Gender}
+          
         />
+    
          <Stack.Screen
-          name="BottomTab"
-          component={BottomHome}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
+          name="Notification"
+          component={Notification}
+         
         />
        
         <Stack.Screen
-          name="Myshoes"
-          component={HBottom}
+          name="Home"
+          component={Home}
         
         />
             <Stack.Screen
-          name="Bottom"
-          component={Bottom}
+          name="MyShoes"
+          component={MyShoes}
         
         />
-        <Stack.Screen
-          name="Notification"
-          component={Notification}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
-        />
+       
           <Stack.Screen
           name="ShoeDetails"
           component={ShoeDetials}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
+         
         />
           <Stack.Screen
-          name="Sporting"
-          component={Sporting}
-          // options={() => ({
-          //   tabBarStyle: {
-          //     display: "none",
-          //   },
-          //   tabBarButton: () => null,
-          // })}
+          name="SportLog"
+          component={Sportlog}
+         
         />
-        <Stack.Screen
-          name="BottomTabb"
-          component={MyBottomTab}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
-        />
-           <Stack.Screen
-          name="Test"
-          component={Test}
-          options={() => ({
-            tabBarStyle: {
-              display: "none",
-            },
-            tabBarButton: () => null,
-          })}
-        />
+      
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -67,7 +67,7 @@ const Cycling = [
   },
   {
     ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.CYCLE,
+    cycle: IMAGEPATH.CYCLE,
     left: IMAGEPATH.RIGHTICON,
     date: "10 jun",
     distance: "2.3 KM",
@@ -76,7 +76,7 @@ const Cycling = [
   },
   {
     ImageBackground: IMAGEPATH.FSQURECONTAINER,
-    shoes: IMAGEPATH.CYCLE,
+    cycle: IMAGEPATH.CYCLE,
     left: IMAGEPATH.RIGHTICON,
     date: "10 jun",
     distance: "2.3 KM",
@@ -106,7 +106,7 @@ const Walking = [
   },
 ];
 
-const Sporting = ({ navigation }) => {
+const Sportlog = (props) => {
   const [check, setCheck] = useState("Running");
 
   return (
@@ -413,7 +413,7 @@ const Sporting = ({ navigation }) => {
           </View>
           <View style={{ height: height * 0.03, width: width * 0.2 }}>
             <TouchableOpacity onPress={() => setCheck("Cycling")}>
-              <Text style={{ color: check === "Cycling" ? "green" : "white" ,fontFamily:'SairaSemiCondensed-Regular', fontSize:20, fontWeight:'700', lineHeight:23}}>
+              <Text style={{ color: check === "Cycling" ? "green" : "white" ,fontFamily:'sairasemicondensed-Regular', fontSize:20, fontWeight:'700', lineHeight:23}}>
                 Cycling
               </Text>
             </TouchableOpacity>
@@ -741,7 +741,7 @@ const Sporting = ({ navigation }) => {
   );
 };
 
-export default Sporting;
+export default Sportlog;
 
 const styles = StyleSheet.create({
   FIMD: { height: height * 0.13, width: width * 1 },

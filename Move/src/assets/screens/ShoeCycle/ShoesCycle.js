@@ -16,6 +16,7 @@ import LinearGradient from "react-native-linear-gradient";
 import React, { useState } from "react";
 import * as Progress from "react-native-progress";
 import { IMAGEPATH } from "../../Icon/Icon";
+import { Route, useRoute } from "@react-navigation/native";
 
 const { height, width } = Dimensions.get("window");
 const image1 = [
@@ -258,23 +259,23 @@ const images2 = [
     number2: " 9",
   },
 ];
-const MyShoes = ({ navigation }) => {
+const MyShoes = (props) => {
+  const route =useRoute();
   const [check, setCheck] = useState("Shoes");
-
   return (
     <View style={styles.main}>
       <ImageBackground
         style={styles.bgImage}
         source={IMAGEPATH.SPLASH_BACKGROUND}
       >
-        <StatusBar barStyle="light-content"></StatusBar>
+        <StatusBar barStyle="dark-content"></StatusBar>
         <View style={{ height: height * 0.05 }}></View>
 
         <View style={styles.v1}>
           <View style={styles.v11}>
             <View>
               <TouchableOpacity
-                onPress={() => navigation.navigate("Notification")}
+               onPress={() => props.navigation.navigate("MyShoes")}
               >
                 <Image source={IMAGEPATH.PROFILE_Icon} />
               </TouchableOpacity>
@@ -410,7 +411,7 @@ const MyShoes = ({ navigation }) => {
           style={{
             width: width * 0.9,
             // backgroundColor: "pink",
-            height: height * 0.6,
+            height: height * 0.7,
             // justifyContent: "space-evenly",
             alignSelf: "center",
           }}
@@ -432,13 +433,15 @@ const MyShoes = ({ navigation }) => {
                   >
                     <View
                       style={{
-                        borderWidth: 3,
+                        borderWidth: 2,
                         borderTopColor: "rgb(199,112,193)",
                         borderRightColor: "rgb(147,182,203)",
                         borderLeftColor: "rgb(147,182,203)",
                         borderBottomColor: "rgb(176,244,165)",
                         borderRadius: 15,
                         alignSelf: "center",
+                        shadowColor:"rgba(0, 0, 0, 0.25)",
+                     
                       }}
                     >
                       <LinearGradient
@@ -542,7 +545,7 @@ const MyShoes = ({ navigation }) => {
                   >
                     <View
                       style={{
-                        borderWidth: 3,
+                        borderWidth: 2,
                         borderTopColor: "rgb(199,112,193)",
                         borderRightColor: "rgb(147,182,203)",
                         borderLeftColor: "rgb(147,182,203)",

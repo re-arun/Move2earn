@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import React from "react";
 import { IMAGEPATH } from "../../Icon/Icon";
+import Genderr from "../SelectGender/SelectGender";
 const { height, width } = Dimensions.get("window");
 const DATA = [
     {
@@ -25,7 +26,7 @@ const DATA = [
       
 ];
 
-const Notification = ({ navigation }) => {
+const Notification = (props) => {
   return (
     <SafeAreaView style={{ height: height, width: width }}>
       <ImageBackground
@@ -38,13 +39,13 @@ const Notification = ({ navigation }) => {
             height: height * 1,
             alignSelf: "center",
           }}
-        ><TouchableOpacity onPress={() => navigation.navigate("Dashboard")}>
+        ><TouchableOpacity onPress={() => props.navigation.navigate("Home")}>
 
           <View style={{ height: height * 0.05, justifyContent: "center" }}>
             <Image source={IMAGEPATH.LEFT} />
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.navigate("ShoeDetails")}>
+        <TouchableOpacity onPress={() => props.navigation.navigate("ShoeDetails")}>
           <View style={{top:5}}>
             <Text style={{ color: "white", fontSize: 30, fontWeight: "700", fontFamily: 'sairasemicondensed-Regular', }}>
               Notification
