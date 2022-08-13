@@ -10,6 +10,7 @@ import {
   StatusBar,
   ScrollView,
 } from "react-native";
+import Svg, { Polygon } from 'react-native-svg';
 import LinearGradient from "react-native-linear-gradient";
 
 import React, { useState } from "react";
@@ -36,8 +37,8 @@ const Home = (props) => {
         style={styles.ImageBackground}
         source={IMAGEPATH.SPLASH_BACKGROUND}
       >
-        <View style={{ height: height * 0.85 }}>
-          <StatusBar barStyle="dark-content"></StatusBar>
+        <View style={{ height: height * 0.90 }}>
+          <StatusBar barStyle="light-content"></StatusBar>
           <ScrollView>
             <View style={styles.fakeView}></View>
             <View style={styles.headerVIew}>
@@ -53,7 +54,9 @@ const Home = (props) => {
               </View>
 
               <View style={styles.BellView}>
-                <TouchableOpacity onPress={() => props.navigation.navigate("Notification")}>
+                <TouchableOpacity
+                  onPress={() => props.navigation.navigate("Notification")}
+                >
                   <Image source={IMAGEPATH.BELL_Icon} />
                 </TouchableOpacity>
               </View>
@@ -124,7 +127,7 @@ const Home = (props) => {
                 </SwiperFlatList>
               </View>
             </View>
-
+         
             <View style={styles.buttonVIew}>
               <View
                 style={{
@@ -145,7 +148,7 @@ const Home = (props) => {
                   style={{
                     height: height * 0.12,
                     alignSelf: "center",
-                    width: width * 0.26,
+                    width: width * 0.24,
                     borderRadius: 15,
                   }}
                 >
@@ -181,7 +184,7 @@ const Home = (props) => {
                   style={{
                     height: height * 0.12,
                     alignSelf: "center",
-                    width: width * 0.26,
+                    width: width * 0.24,
                     borderRadius: 15,
                   }}
                 >
@@ -219,7 +222,7 @@ const Home = (props) => {
                   style={{
                     height: height * 0.12,
                     alignSelf: "center",
-                    width: width * 0.26,
+                    width: width * 0.24,
                     borderRadius: 15,
                   }}
                 >
@@ -254,11 +257,16 @@ const Home = (props) => {
               }}
             >
               <LinearGradient
-                colors={["rgba(255, 255, 255, 0.2)", "rgba(255, 255, 255, 0)"]}
+                colors={[
+                  "rgba(255, 255, 255, -0.2)",
+                  "rgba(255, 255, 255, -0.2)",
+                  "rgba(255, 255, 255, -0.2)",
+                ]}
                 style={{
-                  height: height * 0.2,
+                  height: height * 0.22,
                   alignSelf: "center",
                   width: width * 0.9,
+                  justifyContent:'center'
                 }}
               >
                 <View style={styles.ProcessMainView}>
@@ -281,7 +289,11 @@ const Home = (props) => {
                     </View>
                     <View>
                       <View style={styles.sendCodeView}>
-                        <TouchableOpacity onPress={() => props.navigation.navigate("ShoeDetails")}>
+                        <TouchableOpacity
+                          onPress={() =>
+                            props.navigation.navigate("ShoeDetails")
+                          }
+                        >
                           <ImageBackground
                             style={styles.codeImageSTyle}
                             source={IMAGEPATH.CODE_ICON}
@@ -330,15 +342,18 @@ const Home = (props) => {
                   borderRightColor: "#7C7C7C",
                   borderLeftColor: "#7C7C7C",
                   borderBottomColor: "#7C7C7C",
-                  borderRadius: 15,
+                  borderRadius: 20,
                   alignSelf: "center",
                   top: 10,
+                  // backgroundColor:'red',
+                  overflow: "hidden",
                 }}
               >
                 <LinearGradient
                   colors={[
-                    "rgba(255, 255, 255, 0.1)",
-                    "rgba(255, 255, 255,0.1) )",
+                    "rgba(255, 255, 255, 0.2)",
+                    "rgba(255, 255, 255, -0.2)",
+                    "rgba(255, 255, 255, 0.2)",
                   ]}
                   style={{
                     height: height * 0.11,
@@ -351,7 +366,7 @@ const Home = (props) => {
                     style={{
                       justifyContent: "center",
                       width: width * 0.8,
-
+                      // backgroundColor:'red',
                       alignContents: "center",
                       height: height * 0.1,
                       alignSelf: "center",
@@ -362,6 +377,7 @@ const Home = (props) => {
                         flexDirection: "row",
                         justifyContent: "space-between",
                         alignItems: "center",
+                        // backgroundColor:'red'
                       }}
                     >
                       <View>
@@ -379,7 +395,7 @@ const Home = (props) => {
                           Longest Distance
                         </Text>
                       </View>
-                      <View>
+                      <View style={{}}>
                         <Text
                           style={{
                             color: "white",
@@ -420,9 +436,9 @@ const Home = (props) => {
               >
                 <LinearGradient
                   colors={[
-                    "rgba(255, 255, 255, 0.2)",
-                    "rgba(255, 255, 255, 0)",
-                    "rgba(0, 0, 0, 0.25);",
+                    "rgba(255, 255, 255, -0.2)",
+                    "rgba(255, 255, 255, -0.2)",
+                    // "rgba(255, 255, 255, -0.2)",
                   ]}
                   style={{
                     height: height * 0.3,
@@ -489,10 +505,14 @@ const Home = (props) => {
         </View>
         <View
           style={{
-            height: height * 0.2,
+            // top:5,
+            height: height * 0.10,
             width: width * 0.99,
             alignSelf: "center",
-            // backgroundColor:'red'
+            // backgroundColor:'red',
+            position: "absolute",
+            bottom: 0,
+            // justifyContent:'center'
           }}
         >
           <View
@@ -504,52 +524,112 @@ const Home = (props) => {
               borderBottomColor: "#7C7C7C",
               borderRadius: 35,
               alignSelf: "center",
-              overflow:'hidden'
+              overflow: "hidden",
             }}
           >
             <LinearGradient
-              colors={["rgba(255, 255, 255, 0.2)", "rgba(255, 255, 255, 0)"]}
+              colors={[
+                "rgba(255, 255, 255, 0.2)",
+                "rgba(255, 255, 255, -0.2)",
+                "rgba(255, 255, 255, -0.2)",
+              ]}
               style={{
-                height: height * 0.11,
+                height: height * 0.09,
                 alignSelf: "center",
                 width: width * 0.98,
                 overflow: "hidden",
-                justifyContent:'center'
+                justifyContent: "center",
               }}
             >
-              <View style={{  flexDirection: "row", width:width*0.9, height:height*0.1, justifyContent:'space-between', alignSelf
-              :'center'}}>
+              <View
+                style={{
+                  flexDirection: "row",
+                  width: width * 0.9,
+                  height: height * 0.1,
+                  justifyContent: "space-between",
+                  alignSelf: "center",
+                }}
+              >
+              
+            
                 <View
                   style={{
-            
-                    height: height * 0.08,
+                    height: height * 0.05,
                     width: width * 0.2,
-                    alignSelf:'center',
-                    justifyContent:'center',
-                    alignItems:'center'
-
+                    alignSelf: "center",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    // backgroundColor:'red'
                   }}
                 >
-                  <Image source={IMAGEPATH.BI1} />
+                  <Image source={IMAGEPATH.BI1} style={{height:"50%", width:"50%", resizeMode:'contain'}} />
                 </View>
+               
+                <View>
+                <TouchableOpacity>
+                  <View
+                    style={{
+                      height: height * 0.1,
+                      width: width * 0.2,
+                      alignItems: "center",
+                      justifyContent: "center",
+                      // backgroundColor: "red",
+                    }}
+                  >
+                  <View style={{height:height*0.074, width:width*0.145 , }}>
+                   <ImageBackground
+                      source={IMAGEPATH.BI2C}
+                      style={{
+                        // top:12,
+                        height: height * 0.072,
+                        width: width * 0.142,
+                        resizeMode: "cover",
+                        justifyContent: "center",
+                      }}
+                    >
+
+                    
+                    {/* <ImageBackground
+                      source={IMAGEPATH.BI2C}
+                      style={{
+                        height: height * 0.074,
+                        width: width * 0.145,
+                        resizeMode: "cover",
+                        justifyContent: "center",
+                      }}
+                    > */}
+                      <View
+                        style={{
+                          height: height * 0.05,
+                          alignSelf: "center",
+                          justifyContent: "center",
+                          // backgroundColor:'green'
+                        }}
+                      >
+                        <Image
+                          source={IMAGEPATH.BI2}
+                          style={{ resizeMode:'contain', height:height*0.03}}
+                        />
+                      </View>
+                    </ImageBackground></View>
+                  </View>
+                  </TouchableOpacity>
+                </View>
+                <TouchableOpacity>
                 <View>
                   <View
-                    style={{  height: height * 0.10, width: width * 0.25,alignItems:'center'  , justifyContent:'center'}}
+                    style={{
+                      height: height * 0.1,
+                      width: width * 0.2,
+                      alignItems: "center",
+                      justifyContent: "center",
+                      alignSelf: "center",
+                    }}
                   >
-                   <ImageBackground source={IMAGEPATH.BI2C} style={{ height:height*0.082, width:width*0.16, resizeMode:"contain", justifyContent:'center'}} >
-<View style={{ height:height*0.05, alignSelf:'center', justifyContent:'center'}}>
-<Image source={IMAGEPATH.BI2} style={{resizeMode:'contain'}} />
-</View>
-                   </ImageBackground>
+                    <Image source={IMAGEPATH.BI3} style={{height:"30%", width:"30%", resizeMode:'contain'}} />
                   </View>
                 </View>
-                <View>
-                  <View
-                    style={{  height: height * 0.10, width: width * 0.2, alignItems:'center' ,justifyContent:'center', alignSelf:'center' }}
-                  >
-                    <Image source={IMAGEPATH.BI3} />
-                  </View>
-                </View>
+                </TouchableOpacity>
               </View>
             </LinearGradient>
           </View>
@@ -717,12 +797,12 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   RunImageStyle1: {
-    height: height * 0.07,
-    width: width * 0.14,
+    height: height * 0.06,
+    width: width * 0.12,
   },
   RunImageStyle: {
-    height: height * 0.04,
-    width: width * 0.08,
+    height: height * 0.035,
+    width: width * 0.06,
   },
   CyTextView: {
     height: height * 0.03,
@@ -862,4 +942,5 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     width: width * 0.9,
   },
+  
 });

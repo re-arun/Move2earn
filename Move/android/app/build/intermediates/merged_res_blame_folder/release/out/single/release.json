@@ -1,0 +1,906 @@
+[
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_sporting_leftarrow_left.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_sporting_leftarrow_left.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_login_loginshadow_shadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_login_loginshadow_shadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_myshoe_shoes_shoes.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_myshoe_shoes_shoes.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_login_lockicon_lock.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_login_lockicon_lock.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_greenrec_green.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_greenrec_green.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_splash_splash_logo_logo.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_splash_splash_logo_logo.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_register_cellicon_phone.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_register_cellicon_phone.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_steprec_rec10.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_steprec_rec10.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_register_backicon_back.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_register_backicon_back.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_sporting_squarecontainer_squarecontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_sporting_squarecontainer_squarecontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_login_backgroundshadow_shadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_login_backgroundshadow_shadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_notifications_leftarrow_leftarrow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_notifications_leftarrow_leftarrow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_myshoe_shoesshadow_shoesshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_myshoe_shoesshadow_shoesshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_orangerec_orange.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_orangerec_orange.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_longest_locicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_longest_locicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_downarrow_vector.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_downarrow_vector.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_malehuman_maleicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_malehuman_maleicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_modall_locmodal.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_modall_locmodal.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_step_group.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_step_group.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_longest_locicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_longest_locicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_ok_vectorsign.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_ok_vectorsign.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_login_charachter_cahrachter.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_login_charachter_cahrachter.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_1st_home.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_1st_home.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_maleselector_mselect.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_maleselector_mselect.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_stack.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_stack.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_steprec_rec10.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_steprec_rec10.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_sblue_sblue.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_sblue_sblue.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_myshoe_gradbottom_grad.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_myshoe_gradbottom_grad.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_login_emialicon_email.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_login_emialicon_email.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_myshoe_scontainer_scontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_myshoe_scontainer_scontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_longest_longestrun.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_longest_longestrun.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_locationpage_locationallow_loaction.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_locationpage_locationallow_loaction.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_uparrow_vector.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_uparrow_vector.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_login_backgroundshadow_shadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_login_backgroundshadow_shadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_taskbg_taskbg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_taskbg_taskbg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_emptyelips_empelips146.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_emptyelips_empelips146.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_login_loginborder_border.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_login_loginborder_border.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_running_running.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_running_running.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_walking_walking.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_walking_walking.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_cycalling_cycalling.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_cycalling_cycalling.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_register_registerborder_reborder.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_register_registerborder_reborder.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_sporting_flatcontainer_flatcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_sporting_flatcontainer_flatcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_sblue_sblue.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_sblue_sblue.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_femaleselector_fselect.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_femaleselector_fselect.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_humanpic_profile.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_humanpic_profile.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_levelcontainer_levelcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_levelcontainer_levelcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_bigshoe.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_bigshoe.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_longest_longestrun.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_longest_longestrun.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_myshoe_scontainer_scontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_myshoe_scontainer_scontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_homeswipperimage_heder.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_homeswipperimage_heder.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_run.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_run.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_emptyelips_empelips146.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_emptyelips_empelips146.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_levelcontainer_levelcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_levelcontainer_levelcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_greenrec_green.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_greenrec_green.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_resetpassword_bgreset_bg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_resetpassword_bgreset_bg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_run.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_run.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_femaleselector_fselect.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_femaleselector_fselect.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_register_backicon_back.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_register_backicon_back.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_attributecontainer_attributecontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_attributecontainer_attributecontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_cycalling_cycalling.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_cycalling_cycalling.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_sporting_leftarrow_left.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_sporting_leftarrow_left.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_locationpage_locationallow_loaction.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_locationpage_locationallow_loaction.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_pink_pink.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_pink_pink.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_splash_splash_logo_logo.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_splash_splash_logo_logo.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_shoeshadow_shoeshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_shoeshadow_shoeshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_bottomtab_bottomtabicons_stack.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_bottomtab_bottomtabicons_stack.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_login_emialicon_email.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_login_emialicon_email.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_stepellips_ellipse.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_stepellips_ellipse.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_myshoe_shoesshadow_shoesshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_myshoe_shoesshadow_shoesshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_resetpassword_tfbg_textf.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_resetpassword_tfbg_textf.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_sporting_squarecontainer_squarecontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_sporting_squarecontainer_squarecontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_levelcontainer_levelcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_levelcontainer_levelcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_bottomtab_bottomtabicons_1st_home.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_bottomtab_bottomtabicons_1st_home.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_emptyelips_empelips146.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_emptyelips_empelips146.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_pink_pink.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_pink_pink.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_touchablebutton_hbuttonbg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_touchablebutton_hbuttonbg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_heightbg_height.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_heightbg_height.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_colorrunningicon_crun.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_colorrunningicon_crun.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_splash_splash_logo_logo.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_splash_splash_logo_logo.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_locationpage_locationborder_border.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_locationpage_locationborder_border.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_resetpassword_bgreset_bg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_resetpassword_bgreset_bg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_iconcon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_iconcon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_modall_locmodal.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_modall_locmodal.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_locationpage_locationallow_loaction.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_locationpage_locationallow_loaction.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_modall_button_radiusbtn.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_modall_button_radiusbtn.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_myshoe_cycleshadow_cycleshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_myshoe_cycleshadow_cycleshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_emptyline_rec9.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_emptyline_rec9.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_modall_button_radiusbtn.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_modall_button_radiusbtn.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_stepellips_ellipse.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_stepellips_ellipse.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_emptyline_rec9.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_emptyline_rec9.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_sporting_reccontainer_reccontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_sporting_reccontainer_reccontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_resetpassword_bgreset_bg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_resetpassword_bgreset_bg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_register_registerborder_reborder.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_register_registerborder_reborder.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_register_registerborder_reborder.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_register_registerborder_reborder.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_shoeshadow_shoeshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_shoeshadow_shoeshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_myshoe_dollar_dollar.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_myshoe_dollar_dollar.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_2step_2step.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_2step_2step.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_3step_3step.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_3step_3step.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_1st_home.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_1st_home.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_bottomtab_bottom.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_bottomtab_bottom.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_3step_3step.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_3step_3step.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_femalehuman_femaleicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_femalehuman_femaleicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_myshoe_dollar_dollar.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_myshoe_dollar_dollar.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_myshoe_cycleshadow_cycleshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_myshoe_cycleshadow_cycleshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_sblue_sblue.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_sblue_sblue.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_uparrow_vector.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_uparrow_vector.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_sporting_flatcontainer_flatcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_sporting_flatcontainer_flatcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_sporting_fcontainer_fcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_sporting_fcontainer_fcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_resetpassword_tbg2_tbg2.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_resetpassword_tbg2_tbg2.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_register_codesend_code.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_register_codesend_code.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_homeswipperimage_heder.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_homeswipperimage_heder.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_myshoe_shoes_shoes.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_myshoe_shoes_shoes.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_orangerec_orange.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_orangerec_orange.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_femalehuman_femaleicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_femalehuman_femaleicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_longest_locicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_longest_locicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_myshoe_gradbottom_grad.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_myshoe_gradbottom_grad.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_bellicon_bell.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_bellicon_bell.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_shoeshadow_shoeshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_shoeshadow_shoeshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_register_cellicon_phone.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_register_cellicon_phone.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_stepellips_ellipse.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_stepellips_ellipse.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_humanpic_profile.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_humanpic_profile.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_register_backicon_back.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_register_backicon_back.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_login_loginshadow_shadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_login_loginshadow_shadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_uparrow_vector.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_uparrow_vector.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_sporting_squarecontainer_squarecontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_sporting_squarecontainer_squarecontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_bottomtab_bottom.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_bottomtab_bottom.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_maleselector_mselect.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_maleselector_mselect.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_locationpage_locationborder_border.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_locationpage_locationborder_border.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_myshoe_dollar_dollar.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_myshoe_dollar_dollar.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_cycalling_cycalling.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_cycalling_cycalling.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_resetpassword_tfbg_textf.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_resetpassword_tfbg_textf.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_taskbg_taskbg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_taskbg_taskbg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_orangerec_orange.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_orangerec_orange.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_login_emialicon_email.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_login_emialicon_email.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_touchablebutton_hbuttonbg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_touchablebutton_hbuttonbg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_running_running.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_running_running.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_login_loginborder_border.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_login_loginborder_border.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_femalehuman_femaleicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_femalehuman_femaleicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_stack.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_stack.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_maleselector_mselect.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_maleselector_mselect.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_malehuman_maleicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_malehuman_maleicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_humanpic_profile.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_humanpic_profile.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_resetpassword_tfbg_textf.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_resetpassword_tfbg_textf.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_sporting_rightiarrow_right.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_sporting_rightiarrow_right.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_pink_pink.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_pink_pink.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_sporting_leftarrow_left.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_sporting_leftarrow_left.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_iconcon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_iconcon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_sporting_rightiarrow_right.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_sporting_rightiarrow_right.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_splash_splash.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_splash_splash.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_longest_longestrun.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_longest_longestrun.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_login_lockicon_lock.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_login_lockicon_lock.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_myshoe_cycle_cycle.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_myshoe_cycle_cycle.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_colorrunningicon_crun.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_colorrunningicon_crun.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_sporting_reccontainer_reccontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_sporting_reccontainer_reccontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_heightbg_height.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_heightbg_height.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_iconcon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_iconcon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_heightbg_height.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_heightbg_height.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_step_group.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_step_group.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_register_codesend_code.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_register_codesend_code.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_login_backgroundshadow_shadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_login_backgroundshadow_shadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_bellicon_bell.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_bellicon_bell.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_redrec_redrec.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_redrec_redrec.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_downarrow_vector.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_downarrow_vector.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_sporting_fcontainer_fcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_sporting_fcontainer_fcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_walking_walking.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_walking_walking.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_notifications_leftarrow_leftarrow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_notifications_leftarrow_leftarrow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_running_running.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_running_running.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_login_loginborder_border.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_login_loginborder_border.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_redrec_redrec.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_redrec_redrec.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_run.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_bottomtab_bottomtabicons_2ndbox_run.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_sporting_reccontainer_reccontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_sporting_reccontainer_reccontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_walking_walking.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_walking_walking.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_locationpage_locationborder_border.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_locationpage_locationborder_border.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_step_group.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_step_group.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_bellicon_bell.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_bellicon_bell.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_femaleselector_fselect.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_femaleselector_fselect.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_modall_locmodal.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_modall_locmodal.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_myshoe_cycleshadow_cycleshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_myshoe_cycleshadow_cycleshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_redrec_redrec.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_redrec_redrec.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_resetpassword_tbg2_tbg2.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_resetpassword_tbg2_tbg2.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_register_codesend_code.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_register_codesend_code.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_bottomtab_bottom.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_bottomtab_bottom.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_attributecontainer_attributecontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_attributecontainer_attributecontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_sporting_fcontainer_fcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_sporting_fcontainer_fcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_sporting_rightiarrow_right.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_sporting_rightiarrow_right.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_selectgender_2step_2step.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_selectgender_2step_2step.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_login_lockicon_lock.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_login_lockicon_lock.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_login_loginshadow_shadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_login_loginshadow_shadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_2step_2step.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_2step_2step.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_3step_3step.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_3step_3step.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_emptyline_rec9.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_emptyline_rec9.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_taskbg_taskbg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_taskbg_taskbg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_homepage_colorrunningicon_crun.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_homepage_colorrunningicon_crun.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_register_passwordborder_password.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_register_passwordborder_password.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_register_cellicon_phone.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_register_cellicon_phone.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_homepage_touchablebutton_hbuttonbg.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_homepage_touchablebutton_hbuttonbg.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_resetpassword_tbg2_tbg2.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_resetpassword_tbg2_tbg2.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_showdetails_bigshoe.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_showdetails_bigshoe.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_myshoe_shoes_shoes.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_myshoe_shoes_shoes.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_sporting_flatcontainer_flatcontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_sporting_flatcontainer_flatcontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_selectgender_downarrow_vector.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_selectgender_downarrow_vector.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_notifications_leftarrow_leftarrow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_notifications_leftarrow_leftarrow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_showdetails_greenrec_green.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_showdetails_greenrec_green.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_homepage_homeswipperimage_heder.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homepage_homeswipperimage_heder.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_selectgender_steprec_rec10.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_selectgender_steprec_rec10.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_myshoe_shoesshadow_shoesshadow.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_myshoe_shoesshadow_shoesshadow.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_bigshoe.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_bigshoe.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_src_assets_images_showdetails_attributecontainer_attributecontainer.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xxhdpi/src_assets_images_showdetails_attributecontainer_attributecontainer.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_src_assets_images_modall_button_radiusbtn.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/src_assets_images_modall_button_radiusbtn.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/admin/git/move2earn-shabuddin-21054003-reactnative/Move/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    }
+]

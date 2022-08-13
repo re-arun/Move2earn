@@ -107,7 +107,7 @@ const Gender = (props) => {
       <ImageBackground
         style={styles.ImageBackground}
         source={IMAGEPATH.SPLASH_BACKGROUND}>
-        <StatusBar barStyle="light-content"></StatusBar>
+        {/* <StatusBar barStyle="light-content"></StatusBar> */}
         <View style={styles.fakeVIew3}></View>
         <View style={styles.backView}>
           <TouchableOpacity>
@@ -190,7 +190,7 @@ const Gender = (props) => {
                       }}>
                       <TouchableOpacity
                         onPress={() =>
-                          setChecked(checked === 'female' ? 'male' : 'female')
+                          setChecked(checked === 'male' ? 'female' : 'male')
                         }
                         style={styles.btn1}>
                         <View style={styles.image}>
@@ -231,7 +231,7 @@ const Gender = (props) => {
 
                       <TouchableOpacity
                         onPress={() =>
-                          setChecked(checked === 'male' ? 'female' : 'male')
+                          setChecked(checked === 'female' ? 'male' : 'female')
                         }
                         style={styles.btn1}>
                         <View style={styles.image}>
@@ -360,16 +360,31 @@ const Gender = (props) => {
                   Please choose your weight.
                 </Text>
               </View>
-              <View style={styles.bgView}>
-                <ImageBackground
+              <View
+                style={{
+                  borderWidth: 3,
+                  borderTopColor: "rgb(199,112,193)",
+                  borderRightColor: "rgb(147,182,203)",
+                  borderLeftColor: "rgb(147,182,203)",
+                  borderBottomColor: "rgb(176,244,165)",
+                  borderRadius: 15,
+                  alignSelf: "center",
+                }}
+              >
+                <LinearGradient
+                  colors={[
+                    "rgba(255, 255, 255, 0.2)",
+                    "rgba(255, 255, 255, -0.1)",
+                    // "rgba(255, 255, 255, -0.2)",
+                  ]}
                   style={{
                     height: height * 0.25,
-                    width: width * 0.9,
-                    alignSelf: 'center',
-                    // justifyContent:"center",
-                    // alignItems:'center'
+                    alignSelf: "center",
+                    width: width * 0.7,
+                    borderRadius: 15,
+                    backgroundColor: "rgba(0,0,0,0.5)",
                   }}
-                  source={IMAGEPATH.HEIGHT_BG}>
+                >
                   <View style={styles.buttonmainView}>
                     <View style={styles.firstButton}>
                       <TouchableOpacity
@@ -396,7 +411,7 @@ const Gender = (props) => {
                     <View style={styles.FIrstNUmber2}>
                       <Text style={styles.textStyle}>.</Text>
                     </View>
-                    <View style={styles.FIrstNUmber}>
+                    <View style={styles.SecondNUmber}>
                       <Text style={styles.textStyle3}>{Counter1}</Text>
                     </View>
                     <View style={styles.FIrstNUmber1}>
@@ -418,7 +433,7 @@ const Gender = (props) => {
                       </TouchableOpacity>
                     </View>
                   </View>
-                </ImageBackground>
+                </LinearGradient>
               </View>
               <View style={styles.fakeVIew2}></View>
               <View style={styles.loginButtonVIew}>
@@ -498,16 +513,31 @@ const Gender = (props) => {
                   Please choose your height.
                 </Text>
               </View>
-              <View style={styles.bgView}>
-                <ImageBackground
+              <View
+                style={{
+                  borderWidth: 3,
+                  borderTopColor: "rgb(199,112,193)",
+                  borderRightColor: "rgb(147,182,203)",
+                  borderLeftColor: "rgb(147,182,203)",
+                  borderBottomColor: "rgb(176,244,165)",
+                  borderRadius: 15,
+                  alignSelf: "center",
+                }}
+              >
+                <LinearGradient
+                  colors={[
+                    "rgba(255, 255, 255, 0.2)",
+                    "rgba(255, 255, 255, -0.1)",
+                    // "rgba(255, 255, 255, -0.2)",
+                  ]}
                   style={{
                     height: height * 0.25,
-                    width: width * 0.9,
-                    alignSelf: 'center',
-                    // justifyContent:"center",
-                    // alignItems:'center'
+                    alignSelf: "center",
+                    width: width * 0.7,
+                    borderRadius: 15,
+                    backgroundColor: "rgba(0,0,0,0.5)",
                   }}
-                  source={IMAGEPATH.HEIGHT_BG}>
+                >
                   <View style={styles.buttonmainView}>
                     <View style={styles.firstButton}>
                       <TouchableOpacity
@@ -534,7 +564,7 @@ const Gender = (props) => {
                     <View style={styles.FIrstNUmber2}>
                       <Text style={styles.textStyle}>.</Text>
                     </View>
-                    <View style={styles.FIrstNUmber}>
+                    <View style={styles.SecondNUmber}>
                       <Text style={styles.textStyle3}>{Counter8}</Text>
                     </View>
                     <View style={styles.FIrstNUmber1}>
@@ -556,7 +586,7 @@ const Gender = (props) => {
                       </TouchableOpacity>
                     </View>
                   </View>
-                </ImageBackground>
+                </LinearGradient>
               </View>
               <View style={styles.fakeVIew2}></View>
               <View style={styles.loginButtonVIew}>
@@ -655,18 +685,34 @@ const styles = StyleSheet.create({
     width: width * 0.15,
     // borderWidth: 1,
     alignSelf: 'center',
+    // alignItems:'flex-end',
+    // backgroundColor:'red'
   },
-  FIrstNUmber1: {
-    height: height * 0.05,
-    width: width * 0.1,
+  SecondNUmber: {
+    height: height * 0.07,
+    width: width * 0.15,
     // borderWidth: 1,
     alignSelf: 'center',
+    alignItems:'flex-end',
+    // backgroundColor:'red'
+  },
+  FIrstNUmber1: {
+    height: height * 0.07,
+    width: width * 0.13,
+    // borderWidth: 1,
+    alignSelf: 'center',
+    // backgroundColor:'green',
+   
+     alignItems:'flex-end',
+     justifyContent:'center'
   },
   FIrstNUmber2: {
     height: height * 0.07,
     width: width * 0.03,
     // borderWidth: 1,
     alignSelf: 'center',
+    left:10,
+    // backgroundColor:'green'
   },
   heightMainView: {
     height: height * 0.08,

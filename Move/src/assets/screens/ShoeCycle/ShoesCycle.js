@@ -444,6 +444,7 @@ const MyShoes = (props) => {
                      
                       }}
                     >
+                    <TouchableOpacity>
                       <LinearGradient
                         colors={[
                           "rgba(255, 255, 255, 0.2)",
@@ -523,6 +524,7 @@ const MyShoes = (props) => {
                           </View>
                         </View></View>
                       </LinearGradient>
+                      </TouchableOpacity>
                     </View>
                   </View>
                 );
@@ -554,6 +556,7 @@ const MyShoes = (props) => {
                         alignSelf: "center",
                       }}
                     >
+                    <TouchableOpacity>
                       <LinearGradient
                         colors={[
                           "rgba(255, 255, 255, 0.2)",
@@ -633,6 +636,7 @@ const MyShoes = (props) => {
                           </View>
                         </View></View>
                       </LinearGradient>
+                      </TouchableOpacity>
                     </View>
                   </View>
                 );
